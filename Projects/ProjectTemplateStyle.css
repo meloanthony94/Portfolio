@@ -73,7 +73,7 @@ li {
     margin-right: 5vw;
 }
 
-.project-colums{
+.project-intro{
     display: flex;
 	padding-top: 10px;
 }
@@ -94,45 +94,64 @@ li {
 
 .project-container-logo
 {
+	//background-color: red;
+	display: flex;
     border: 3px solid rgb(184, 149, 110);
     border-radius: 5px;
 	float: right;
-	height: 100%;
+	//height: 100%;
     width: 100%;
 }
 
 .project-info-column
 {
+	//background-color: red;
     width: 30%;
 	position: relative;
 }
 
 .project-title
 {
-	width: 70%;
-	display: block;
+	//background-color: red;
+	//display: flex;
+	width: 70%; 
+	//display: block;
 }
 
 .project-title-text
 {
+	//background-color: green;
 	float: left;
-	font-size: 2vw;
-	padding-top: 0.5%;
+	font-size: 3rem;
+	font-weight: 500;
+	text-align: left;
+	margin-bottom: 2vh;
+	//padding-top: 0.5%;
+	//vertical-align: top;
 }
 
-.project-info-year
+.project-title-text-subtitle
 {
-	display: inline-flex;
-	vertical-align: top;
-	font-size: 1.2vw;
-	float: left;
-	color: rgb(116, 115, 115);
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.project-intro-text
+{
+	//background-color: red;
+	display: inline-block;
+	//margin-top: 1vh;
+	width: 100%;
+	text-align: left;
+	font-size: 1vw;
+	margin-bottom: 5vh;
 }
 
 .project-info-category
 {
 	font-size: 1.2vw;
 	margin-right: 8rem;
+	margin-top: 0.75%;
 	
 	background-color: rgba(0, 0, 0, 0);
 	color: rgb(183, 123, 102);
@@ -141,10 +160,56 @@ li {
     padding: 5px 11px;
     text-decoration: none;
 	float: left;
-	vertical-align: bottom;
-	position: absolute;
-  	bottom: 0;
-  	left: 0;
+	//vertical-align: top;
+	//position: absolute;
+  	//bottom: 0;
+  	//left: 0;
+}
+
+.project-info-container
+{
+	//background-color: red;
+	height: 40vh;
+	display: flex;
+}
+
+.project-info-container-title
+{
+	//background-color: green;
+	width: 30%;
+	font-size: 1.2vw;
+	text-align: left;
+	float: left;
+}
+
+.project-info-container-specs
+{
+	//background-color: blue;
+	width: 70%;
+	//display: flex;
+}
+
+.project-info-container-question
+{
+	//background-color: red;
+	width: 20vw;
+	text-align: left;
+	margin-bottom: 3vh;
+}
+
+p1
+{
+	font-size: 1vw;
+	text-align: left;
+	font-weight: 400;
+	margin-bottom: 1.5vh;
+}
+
+p2
+{
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.5vw;
 }
 
 .footer-container
@@ -158,16 +223,6 @@ li {
 	padding-top: 1%;
 	margin-left: 5vw;
     margin-right: 5vw;
-}
-
-.footer-name
-{
-
-}
-
-.footer-email
-{
-
 }
 
 .footer-divder
@@ -285,12 +340,21 @@ button
     	width: 30%;
 	}
 	
+	.horizontal-line 
+	{
+		border: 0 solid rgb(137, 144, 109);
+		border-top-width: 3px;
+		border-radius: 1px;
+		flex: 1;
+		margin-bottom: 1px;
+  	}
+	
 	.projcts-section
 	{
-    	display: flex;
-    	flex-direction: column;
-    	text-align: center;
-    	padding-top: 13vh;		
+    	//display: flex;
+    	//flex-direction: column;
+    	//text-align: center;
+    	//padding-top: 13vh;		
 	}
 	
 	.project-container
@@ -300,11 +364,9 @@ button
     	margin-right: 5vw;
 	}
 	
-	.project-colums
+	.project-intro
 	{
-		display: block;
-		padding-top: 10px;
-		height: 38vh;
+		//background-color: red;
 	}
 	
 	.project-title
@@ -314,9 +376,17 @@ button
 	
 	.project-title-text
 	{
-		font-size: 5vw;
-		padding-top: 0.5%;
-		font-weight: 600;
+		//background: red;
+		font-size: 2.5em;
+		width: 100%;
+		padding-bottom: 2%;
+		font-weight: 500;
+	}
+	
+	
+	.project-intro-text
+	{
+		font-size: 4vw;
 	}
 	
 	.project-container-logo
@@ -334,19 +404,16 @@ button
 	
 	.project-info-column-mobile
 	{
-		width: 100%;
-		height: 3.5vh;
-		margin-top: 6.5vh;
+		//background: red;
+		//height: 10vh;
+		margin-bottom: 2vh;
 		display: flex;
-	}
-	
-	.project-info-year
-	{
-		font-size: 5vw;
-		text-align-last: right;
-		color: rgb(116, 115, 115);
-		position: absolute;
-		right: 8vw;
+		//vertical-align: bottom;
+		float: right;
+		
+		//width: 100%;
+		//position: relative;
+		//top: 0vh;
 	}
 
 	.project-info-category-mobile
