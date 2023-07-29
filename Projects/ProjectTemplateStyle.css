@@ -94,40 +94,31 @@ li {
 
 .project-container-logo
 {
-	//background-color: red;
 	display: flex;
     border: 3px solid rgb(184, 149, 110);
     border-radius: 5px;
 	float: right;
-	//height: 100%;
     width: 100%;
 }
 
 .project-info-column
 {
-	//background-color: red;
     width: 30%;
 	position: relative;
 }
 
 .project-title
 {
-	//background-color: red;
-	//display: flex;
 	width: 70%; 
-	//display: block;
 }
 
 .project-title-text
 {
-	//background-color: green;
 	float: left;
 	font-size: 3rem;
 	font-weight: 500;
 	text-align: left;
 	margin-bottom: 2vh;
-	//padding-top: 0.5%;
-	//vertical-align: top;
 }
 
 .project-title-text-subtitle
@@ -138,9 +129,7 @@ li {
 
 .project-intro-text
 {
-	//background-color: red;
 	display: inline-block;
-	//margin-top: 1vh;
 	width: 100%;
 	text-align: left;
 	font-size: 1vw;
@@ -160,22 +149,21 @@ li {
     padding: 5px 11px;
     text-decoration: none;
 	float: left;
-	//vertical-align: top;
-	//position: absolute;
-  	//bottom: 0;
-  	//left: 0;
 }
 
 .project-info-container
 {
-	//background-color: red;
 	height: 40vh;
 	display: flex;
 }
 
+.project-info-container-specs-mobile
+{
+	display: none;
+}
+
 .project-info-container-title
 {
-	//background-color: green;
 	width: 30%;
 	font-size: 1.2vw;
 	text-align: left;
@@ -184,14 +172,11 @@ li {
 
 .project-info-container-specs
 {
-	//background-color: blue;
 	width: 70%;
-	//display: flex;
 }
 
 .project-info-container-question
 {
-	//background-color: red;
 	width: 20vw;
 	text-align: left;
 	margin-bottom: 3vh;
@@ -404,16 +389,9 @@ button
 	
 	.project-info-column-mobile
 	{
-		//background: red;
-		//height: 10vh;
 		margin-bottom: 2vh;
 		display: flex;
-		//vertical-align: bottom;
 		float: right;
-		
-		//width: 100%;
-		//position: relative;
-		//top: 0vh;
 	}
 
 	.project-info-category-mobile
@@ -425,6 +403,54 @@ button
     	padding: 4px 11px;
     	text-decoration: none;
 	}
+	
+.project-info-container
+{
+	height: 40vh;
+	display: flex;
+	margin-bottom: 4vh;
+}
+	
+.project-info-container-title
+{
+	font-size: 1.2rem;
+	font-weight: 400; 
+	text-align: left;
+	margin-top: 1.5vh;
+}
+	
+.project-info-container-specs-mobile
+{
+	display: block;
+	margin-bottom: 1vh;
+	margin-top: 2vh;
+}
+
+.project-info-container-specs
+{
+	display: none;
+}
+
+.project-info-container-question
+{
+	width: 80vw;
+	text-align: left;
+	margin-bottom: 2vh;
+}
+
+p1
+{
+	font-size: 1.1rem;
+	text-align: left;
+	font-weight: 400;
+}
+
+p2
+{
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
 	
 	.footer-lower-section
 	{
