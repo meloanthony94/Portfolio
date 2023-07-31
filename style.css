@@ -226,7 +226,11 @@ ul.horizontal-footer-list li
 
 a {
     text-decoration: none;
-    color: rgb(116, 115, 115);
+	color: inherit; 
+}
+
+a1 {
+    text-decoration: none;
 }
 
 button
