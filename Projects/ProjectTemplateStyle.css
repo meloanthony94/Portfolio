@@ -73,6 +73,7 @@ li {
     margin-right: 5vw;
 }
 
+/*#region ProjectIntroSection*/
 .project-intro{
     display: flex;
 	padding-top: 10px;
@@ -103,13 +104,13 @@ li {
 
 .project-info-column
 {
-    width: 30%;
+    width: 20%;
 	position: relative;
 }
 
 .project-title
 {
-	width: 70%; 
+	width: 80%; 
 }
 
 .project-title-text
@@ -150,8 +151,20 @@ li {
     text-decoration: none;
 	float: left;
 }
+/*#endreigon */
 
+/*#region ProjectInfoSection*/
 .project-info-container
+{
+
+}
+
+.project-info-container-body-mobile
+{
+	display: none;
+}
+
+.project-info-container-body
 {
 	height: 40vh;
 	display: flex;
@@ -164,15 +177,15 @@ li {
 
 .project-info-container-title
 {
-	width: 30%;
-	font-size: 1.2vw;
+	width: 20%;
+	font-size: 2rem;
 	text-align: left;
 	float: left;
 }
 
 .project-info-container-specs
 {
-	width: 70%;
+	width: 80%;
 }
 
 .project-info-container-question
@@ -196,7 +209,124 @@ p2
 	font-weight: 500;
 	font-size: 1.5vw;
 }
+/*#endreigon */
 
+/*#region ProjectBreakdownSection*/
+.project-breakdown-section
+{
+
+}
+
+.breakdown-title
+{
+	width: 20%;
+	font-size: 2rem;
+	text-align: left;
+	float: left;
+}
+
+.project-breakdown-container
+{
+	width: 80%;
+	margin-left: 20%;
+	margin-bottom: 8vh;
+	display: block;
+}
+
+.project-breakdown-section-title-inital
+{
+	text-align: left;
+	font-size: 3rem;
+	margin-bottom: 1vh;
+}
+
+.project-breakdown-section-title
+{
+	text-align: left;
+	float: left;
+	font-size: 3rem;
+	margin-bottom: 1vh;
+	margin-top: 2vh;
+	display: flex;
+	width: 100%;
+}
+
+.project-breakdown-section-body
+{
+	margin-right: 1vw;
+	display: inline-block; 
+}
+
+.project-breakdown-image-centered
+{
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 2vh;
+}
+
+.project-breakdown-image-centered-subtitled
+{
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.project-breakdown-image-subtitled
+{
+	margin-bottom: 2vh;
+}
+
+.project-breakdown-video
+{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-right: 1vw;
+}
+
+iframe
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	width: 57vw;
+	height: 70vh;
+	
+}
+
+p3
+{
+	float: left;
+	text-align: left;
+	font-size: 1.2rem;
+	margin-bottom: 1vh;
+	font-weight: 400;
+}
+
+p4
+{
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.4rem;
+}
+/*#endreigon */
+
+/*#region ProjectLessonsLearnedSection*/
+.project-breakdown-lessons-learned-section
+{
+
+}
+
+.project-breakdown-lessons-learned-body
+{
+	width: 80%;
+	margin-left: 20%;
+	margin-bottom: 8vh;
+	display: block;	
+}
+/*#endreigon */
+
+/*#region FooterSection*/
 .footer-container
 {
 	background: white;
@@ -204,7 +334,7 @@ p2
 
 .footer-text-info
 {
-	background-color: blue;
+	//background-color: blue;
 	padding-top: 1%;
 	margin-left: 5vw;
     margin-right: 5vw;
@@ -218,7 +348,8 @@ p2
 
 .footer-lower-section
 {
-	padding-top: 2vh;
+	padding-top: 4vh;
+	padding-bottom: 2vh;
 	margin-left: 5vw;
     margin-right: 5vw;
 	display: flex;
@@ -268,6 +399,9 @@ a {
     text-decoration: none;
     color: rgb(116, 115, 115);
 }
+/*#endreigon */
+
+
 
 button
 {
@@ -334,24 +468,11 @@ button
 		margin-bottom: 1px;
   	}
 	
-	.projcts-section
-	{
-    	//display: flex;
-    	//flex-direction: column;
-    	//text-align: center;
-    	//padding-top: 13vh;		
-	}
-	
 	.project-container
 	{ 	
     	margin-bottom: 1vh;
 		margin-left: 5vw;
     	margin-right: 5vw;
-	}
-	
-	.project-intro
-	{
-		//background-color: red;
 	}
 	
 	.project-title
@@ -361,7 +482,6 @@ button
 	
 	.project-title-text
 	{
-		//background: red;
 		font-size: 2.5em;
 		width: 100%;
 		padding-bottom: 2%;
@@ -371,7 +491,8 @@ button
 	
 	.project-intro-text
 	{
-		font-size: 4vw;
+		font-size: 1.3rem;
+		font-weight: 400;
 	}
 	
 	.project-container-logo
@@ -406,24 +527,36 @@ button
 	
 .project-info-container
 {
-	height: 40vh;
-	display: flex;
-	margin-bottom: 4vh;
+
+}
+	
+.project-info-container-body
+{
+	display: none;
 }
 	
 .project-info-container-title
 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: 400; 
-	text-align: left;
 	margin-top: 1.5vh;
+	margin-bottom: 1vh;
+	width: 100%;
 }
+
+.project-info-container-body-mobile
+{
+	display: flex;
+	flex-direction: column;
+}
+
 	
 .project-info-container-specs-mobile
 {
-	display: block;
-	margin-bottom: 1vh;
+	display: flex;
+	flex-direction: column;
 	margin-top: 2vh;
+	margin-bottom: 5vh;
 }
 
 .project-info-container-specs
@@ -449,8 +582,124 @@ p2
 {
 	text-align: left;
 	font-weight: 500;
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 }
+	
+	
+/*#region BreakdownSection*/
+.breakdown-title
+{
+	font-size: 1.4rem;
+	font-weight: 400; 
+	text-align: left;
+	margin-top: 1.5vh;
+	margin-bottom: 4vh;
+	width: 100%;
+}
+	
+.project-breakdown-container
+{
+	width: 100%;
+    margin-left: 0%;
+	margin-bottom: 8vh;
+	display: flex;
+	flex-direction:column; 
+}
+	
+.project-breakdown-section
+{
+	display: flex;
+	flex-direction:column; 
+}
+	
+.project-breakdown-section-title-inital
+{
+	text-align: left;
+	font-size: 1.8rem;
+	margin-bottom: 1vh;
+}
+
+.project-breakdown-section-title
+{
+	text-align: left;
+	font-size: 1.9rem;
+	margin-bottom: 1vh;
+}
+
+.project-breakdown-section-body
+{
+	
+}
+	
+.project-breakdown-image-centered
+{
+	display: flex;
+	width: 100%;
+	margin-left: 0%;
+	margin-bottom: 2vh;
+}
+
+.project-breakdown-image-centered-subtitled
+{
+	display: flex;
+	width: 100%;
+	margin-left: 0%;
+}
+
+.project-breakdown-image-subtitled
+{
+	margin-bottom: 2vh;
+}
+
+.project-breakdown-video
+{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-right: 1vw;
+}
+
+iframe
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	display: flex;
+	width: 90%;
+	height: 100%;
+}
+	
+p3
+{
+	float: left;
+	text-align: left;
+	font-size: 1.3rem;
+	margin-bottom: 1vh;
+	font-weight: 400;
+}
+
+p4
+{
+	font-weight: 400;
+	text-align: center;
+	font-size: 1rem;
+}
+/*#endreigon */
+
+/*#region LessonsLearnedSection*/
+.project-breakdown-lessons-learned-body	
+{
+	width: 100%;
+	margin-left: 0%;
+}
+	
+.project-breakdown-lessons-learned-section
+{
+	width: 100%;
+	margin-left: 0vw;
+	padding-left: 0vw;
+	display: flex;
+	flex-direction:column; 
+}
+/*#endreigon */
 	
 	.footer-lower-section
 	{
@@ -475,8 +724,6 @@ p2
 	
 	.social-media-container-mobile
 	{
-		//position: absolute;
-		//right: 2vw;
 		background-color: red;
 	}
 	
