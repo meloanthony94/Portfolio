@@ -254,7 +254,7 @@ p2
 	display: flex;
 	margin-bottom: 1vh;
 	text-align: left;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 2.4rem;
 }
 
@@ -270,6 +270,67 @@ p5
 	text-overflow: ellipsis;
 	font-weight: 400;
 	//margin-left: 14vw;
+}
+/*#endreigon */
+
+/*#region EducationInfoSection*/
+.education-info-container
+{
+
+}
+
+.education-info-container-body-mobile
+{
+	display: none;
+}
+
+.education-info-container-body
+{
+	//background-color: blue;
+	//height: 40vh;
+	display: flex;
+	margin-bottom: 2vh;
+}
+
+.education-info-container-specs-mobile
+{
+	display: none;
+}
+
+.education-info-container-title
+{
+	//background-color: blue;
+	width: 20%;
+	font-size: 2rem;
+	text-align: left;
+	float: left;
+}
+
+.education-info-container-specs
+{
+	//background-color: red;
+	width: 80%;
+	margin-bottom: 1.5vh;
+}
+
+.education-info-container-question
+{
+	//background-color: red;
+	//width: 20vw;
+	text-align: left;
+	margin-bottom: 2vh;
+}
+
+.education-info-container-answer
+{
+	width: 80%;
+	//background-color: blue;
+	display: block;
+}
+
+.education-info-container-answer-mobile
+{
+	display:none;
 }
 /*#endreigon */
 
@@ -587,7 +648,8 @@ button
     	padding: 4px 11px;
     	text-decoration: none;
 	}
-	
+
+/*#region ExperienceSection*/
 .experience-info-container
 {
 
@@ -598,10 +660,10 @@ button
 	display: none;
 }
 	
-.experiencet-info-container-title
+.experience-info-container-title
 {
 	font-size: 1.4rem;
-	font-weight: 400; 
+	font-weight: 500; 
 	margin-top: 1.5vh;
 	margin-bottom: 1vh;
 	width: 100%;
@@ -677,7 +739,69 @@ p5
 	font-weight: 300;
 	//margin-left: 14vw;	
 }
+/*#endreigon */
+
+/*#region EducationSection*/
+.education-info-container
+{
+
+}
 	
+.education-info-container-body
+{
+	display: none;
+}
+	
+.education-info-container-title
+{
+	font-size: 1.4rem;
+	font-weight: 500; 
+	margin-top: 1.5vh;
+	margin-bottom: 1vh;
+	width: 100%;
+}
+
+.education-info-container-body-mobile
+{
+	display: flex;
+	flex-direction: column;
+}
+
+	
+.education-info-container-specs-mobile
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
+}
+
+.education-info-container-specs
+{
+	display: none;
+}
+
+.education-info-container-question
+{
+	width: 80vw;
+	text-align: left;
+	margin-bottom: 2vh;
+}
+	
+.education-info-container-answer
+{
+	display: none;	
+}
+	
+.education-info-container-answer-mobile
+{
+	//width: 80%;
+	//background-color: blue;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1vh;
+}
+/*#endreigon */
 	
 /*#region BreakdownSection*/
 .breakdown-title
