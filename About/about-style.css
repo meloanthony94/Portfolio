@@ -97,12 +97,13 @@ li {
 {
 	//background-color: green;
 	//display: flex;
-	//flex-direction: column;
+	//flex-direction: row;
     border: 3px solid rgb(184, 149, 110);
     border-radius: 20%;
 	//border-bottom-style: double;
-	//float: left;
-    width: 30%;
+	float: left;
+   	width: 40%;
+	//height: 100%;
 	margin-right: 1vw;
 }
 
@@ -124,17 +125,17 @@ li {
 
 .who-is-intro-container
 {
-	display: flex;
-	flex-direction: column;
-	//background-color: red;
+	//display: flex;
+	//flex-direction: row;
+	//background-color: blue;
 	width: 80%; 
 }
 
 .who-is-intro-title-text
 {
-	//background-color: green;
-	//display: block;
-	//flex-direction: row;
+	//background-color: purple;
+	display: block;
+	flex-direction: row;
 	//float: left;
 	font-size: 3rem;
 	font-weight: 500;
@@ -148,19 +149,31 @@ li {
 	font-weight: 400;
 }
 
+.who-is-intro-image
+{
+	//background-color: orange;
+	display: flex;
+	//flex-direction: row;
+	width: 30%;
+}
+
 .project-intro-text
 {
 	//background-color: yellow;
-	display: flex;
+	display: inline-block;
+	flex-direction: column;
 	width: 100%;
-	//text-align: left;
+	//text-align: right;
 	font-size: 1vw;
 	margin-bottom: 3vh;
 }
 
 p{
-	margin-top: 10vh;
+	//background-color: yellow;
+	//margin-top: 10vh;
 	text-align: left;
+	//display: flex;
+	//flex-direction: column;
 }
 
 .project-info-category
@@ -329,6 +342,128 @@ p5
 }
 
 .education-info-container-answer-mobile
+{
+	display:none;
+}
+/*#endreigon */
+
+/*#region AwardsInfoSection*/
+.awards-info-container
+{
+
+}
+
+.awards-info-container-body-mobile
+{
+	display: none;
+}
+
+.awards-info-container-body
+{
+	//background-color: blue;
+	//height: 40vh;
+	display: flex;
+	margin-bottom: 2vh;
+}
+
+.awards-info-container-specs-mobile
+{
+	display: none;
+}
+
+.awards-info-container-title
+{
+	//background-color: blue;
+	width: 20%;
+	font-size: 2rem;
+	text-align: left;
+	float: left;
+}
+
+.awards-info-container-specs
+{
+	//background-color: red;
+	width: 80%;
+	margin-bottom: 1.5vh;
+}
+
+.awards-info-container-question
+{
+	//background-color: red;
+	//width: 20vw;
+	text-align: left;
+	margin-bottom: 2vh;
+}
+
+.awards-info-container-answer
+{
+	width: 80%;
+	//background-color: blue;
+	display: block;
+}
+
+.awards-info-container-answer-mobile
+{
+	display:none;
+}
+/*#endreigon */
+
+/*#region PatentInfoSection*/
+.patents-info-container
+{
+
+}
+
+.patents-info-container-body-mobile
+{
+	display: none;
+}
+
+.patents-info-container-body
+{
+	//background-color: blue;
+	//height: 40vh;
+	display: flex;
+	margin-bottom: 2vh;
+}
+
+.patents-info-container-specs-mobile
+{
+	display: none;
+}
+
+.patents-info-container-title
+{
+	//background-color: blue;
+	width: 20%;
+	font-size: 2rem;
+	text-align: left;
+	float: left;
+}
+
+.patents-info-container-specs
+{
+	//background-color: red;
+	width: 80%;
+	margin-bottom: 1.5vh;
+}
+
+.patents-info-container-question
+{
+	//background-color: red;
+	//width: 20vw;
+	text-align: left;
+	margin-bottom: 2vh;
+}
+
+.patents-info-container-answer
+{
+	width: 80%;
+	//background-color: blue;
+	display: block;
+}
+
+.patents-info-container-answer-mobile
 {
 	display:none;
 }
@@ -794,6 +929,130 @@ p5
 }
 	
 .education-info-container-answer-mobile
+{
+	//width: 80%;
+	//background-color: blue;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1vh;
+}
+/*#endreigon */
+
+/*#region AwardsSection*/
+.awards-info-container
+{
+
+}
+	
+.awards-info-container-body
+{
+	display: none;
+}
+	
+.awards-info-container-title
+{
+	font-size: 1.4rem;
+	font-weight: 500; 
+	margin-top: 1.5vh;
+	margin-bottom: 1vh;
+	width: 100%;
+}
+
+.awards-info-container-body-mobile
+{
+	display: flex;
+	flex-direction: column;
+}
+
+	
+.awards-info-container-specs-mobile
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
+}
+
+.awards-info-container-specs
+{
+	display: none;
+}
+
+.awards-info-container-question
+{
+	width: 80vw;
+	text-align: left;
+	margin-bottom: 2vh;
+}
+	
+.awards-info-container-answer
+{
+	display: none;	
+}
+	
+.awards-info-container-answer-mobile
+{
+	//width: 80%;
+	//background-color: blue;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1vh;
+}
+/*#endreigon */
+	
+/*#region PatentSection*/
+.patents-info-container
+{
+
+}
+	
+.patents-info-container-body
+{
+	display: none;
+}
+	
+.patents-info-container-title
+{
+	font-size: 1.4rem;
+	font-weight: 500; 
+	margin-top: 1.5vh;
+	margin-bottom: 1vh;
+	width: 100%;
+}
+
+.patents-info-container-body-mobile
+{
+	display: flex;
+	flex-direction: column;
+}
+
+	
+.patents-info-container-specs-mobile
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
+}
+
+.patents-info-container-specs
+{
+	display: none;
+}
+
+.patents-info-container-question
+{
+	width: 80vw;
+	text-align: left;
+	margin-bottom: 2vh;
+}
+	
+.patents-info-container-answer
+{
+	display: none;	
+}
+	
+.patents-info-container-answer-mobile
 {
 	//width: 80%;
 	//background-color: blue;
