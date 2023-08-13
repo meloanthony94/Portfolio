@@ -86,7 +86,7 @@ li {
 
 .horizontal-line 
 {
-    border: 0 solid rgb(137, 144, 109);
+    border: 0 solid rgb(135, 179, 74);
     border-top-width: 3px;
     border-radius: 1px;
     flex: 1;
@@ -96,7 +96,7 @@ li {
 .project-container-logo
 {
 	display: flex;
-    border: 3px solid rgb(184, 149, 110);
+    border: 3px solid rgb(237, 97, 46);
     border-radius: 5px;
 	float: right;
     width: 100%;
@@ -139,17 +139,22 @@ li {
 
 .project-info-category
 {
-	font-size: 1.2vw;
+	//font-size: 1.2vw;
 	margin-right: 8rem;
 	margin-top: 0.75%;
 	
-	background-color: rgba(0, 0, 0, 0);
-	color: rgb(183, 123, 102);
-    border: 2px solid rgb(116, 115, 115);
+	background-color: rgba(0,0, 0, 0);
+    border: 2px solid rgb(135, 179, 74);
     border-radius: 100px; 
     padding: 5px 11px;
     text-decoration: none;
 	float: left;
+}
+
+p7{
+	font-size: 1.2vw;
+	color: rgb(98,122,126);
+}
 }
 /*#endreigon */
 
@@ -180,6 +185,7 @@ li {
 	font-size: 2rem;
 	text-align: left;
 	float: left;
+	color: rgb(98,122,126);
 }
 
 .project-info-container-specs
@@ -222,6 +228,7 @@ p2
 	font-size: 2rem;
 	text-align: left;
 	float: left;
+	color: rgb(98,122,126);
 }
 
 .project-breakdown-container
@@ -262,6 +269,8 @@ p2
 	width: 80%;
 	margin-left: 10%;
 	margin-bottom: 2vh;
+	border: 3px solid rgb(237, 97, 46);
+    border-radius: 5px;
 }
 
 .project-breakdown-image-centered-subtitled
@@ -269,6 +278,8 @@ p2
 	display: flex;
 	width: 80%;
 	margin-left: 10%;
+	border: 3px solid rgb(237, 97, 46);
+    border-radius: 5px;
 }
 
 .project-breakdown-image-subtitled
@@ -290,7 +301,8 @@ iframe
 	display: flex;
 	width: 57vw;
 	height: 70vh;
-	
+	border: 3px solid rgb(237, 97, 46);
+    border-radius: 5px;
 }
 
 p3
@@ -693,6 +705,13 @@ p4
 	font-weight: 400;
 	text-align: center;
 	font-size: 1rem;
+}
+	
+p5
+{
+	text-decoration: underline;
+	f1ont-weight: 500;
+	font-size: 1.5rem;
 }
 /*#endreigon */
 
