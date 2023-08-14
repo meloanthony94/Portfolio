@@ -169,7 +169,6 @@ p7{
 
 .project-info-container-body
 {
-	height: 40vh;
 	display: flex;
 }
 
@@ -318,6 +317,19 @@ p4
 	font-weight: 400;
 	text-align: center;
 	font-size: 1.4rem;
+}
+
+p5
+{
+	text-decoration: underline;
+	f1ont-weight: 500;
+	font-size: 2.3rem;
+}
+
+p6
+{
+	font-weight: 500;
+	font-size: 1.7rem;
 }
 /*#endreigon */
 
