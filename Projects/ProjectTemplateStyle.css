@@ -194,7 +194,7 @@ p7{
 .project-info-container-title
 {
 	width: 20%;
-	font-size: 2rem;
+	font-size: 1.5vw;
 	text-align: left;
 	float: left;
 	color: rgb(98,122,126);
@@ -237,7 +237,7 @@ p2
 .breakdown-title
 {
 	width: 20%;
-	font-size: 2rem;
+	font-size: 1.5vw;
 	text-align: left;
 	float: left;
 	color: rgb(98,122,126);
@@ -254,25 +254,26 @@ p2
 .project-breakdown-section-title-inital
 {
 	text-align: left;
-	font-size: 3rem;
-	margin-bottom: 1vh;
+	font-size: 2.2vw;
+	margin-top: 1vh;
 }
 
 .project-breakdown-section-title
 {
 	text-align: left;
 	float: left;
-	font-size: 3rem;
+	font-size: 2.2vw;
 	margin-bottom: 1vh;
-	margin-top: 2vh;
+	margin-top: 1vh;
 	display: flex;
 	width: 100%;
 }
 
 .project-breakdown-section-body
 {
-	margin-right: 1vw;
-	display: inline-block; 
+	display: block;
+	text-align: left;
+	margin-bottom: 1vh;
 }
 
 .project-breakdown-image-centered
@@ -319,8 +320,7 @@ p2
 
 p3
 {
-	float: left;
-	text-align: left;
+	margin-left: 0;
 	font-size: 1vw;
 	margin-bottom: 1vh;
 	font-weight: 400;
