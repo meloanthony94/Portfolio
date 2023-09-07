@@ -6,7 +6,7 @@ body {
     font-style: normal;
     background-color: rgb(225, 210, 191);
     display: flex;
-    flex-direction: column;	
+    flex-direction: column;
 }
 
 .header-section {
@@ -164,7 +164,6 @@ p7
 
 .footer-text-info
 {
-	background-color: blue;
 	padding-top: 1%;
 	margin-left: 5vw;
     margin-right: 5vw;
@@ -192,6 +191,7 @@ p7
 	margin-left: 5vw;
     margin-right: 5vw;
 	display: flex;
+	height: 20vh;
 }
 
 .footer-logo
@@ -202,9 +202,15 @@ p7
 .social-media-container
 {
 	display: flex;
-	padding-left: 3vw;
 	padding-top: 1vh;
-	height: 3vh;
+	height: 5vh;
+	width: 8.5vw;
+}
+
+.social-media-icon
+{
+	width: 35px;
+	height: 35px;
 }
 
 .social-media-container-mobile
@@ -225,12 +231,11 @@ p7
 {
 	background-color: red;
 	display: inline-flex;
-	width: 86.2vw;
 }
 
 ul.horizontal-footer-list li
 {
-	background-color: yellow;
+	
 	vertical-align: bottom;
 }
 
@@ -240,6 +245,7 @@ a {
 }
 
 a1 {
+	
     text-decoration: none;
 }
 
