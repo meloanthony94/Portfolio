@@ -408,16 +408,15 @@ p6
 
 .social-media-container
 {
-	display: flex;
+	margin-left: 20%;
+	display: inline-flex;
 	padding-top: 1vh;
 	height: 5vh;
-	width: 8.5vw;
 }
 
 .social-media-icon
 {
-	width: 35px;
-	height: 35px;
+	width: 2vw;
 }
 
 .social-media-container-mobile
