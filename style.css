@@ -387,9 +387,10 @@ button
 	
 	.footer-lower-section
 	{
+		margin-top: 2vh;
 		margin-left: 5vw;
     	margin-right: 5vw;
-		height: 6vh;
+		height: 7vh;
 		display: flex;
 	}
 
@@ -397,7 +398,7 @@ button
 	.footer-logo
 	{
 		padding-top: 0vh;
-		margin-left: 7vw;
+		margin-left: 2vw;
 	    height: 80%;
 	}
 	
@@ -415,13 +416,4 @@ button
 	{
 		display: none;
 	}
-	
-	.horizontal-line 
-	{
-		border: 0 solid rgb(135, 179, 74);
-		border-top-width: 3px;
-		border-radius: 1px;
-		flex: 1;
-		margin-bottom: 10px;
-  }
 }

@@ -10,7 +10,7 @@ body {
 }
 
 .header-section {
-	 background-color: rgb(225, 210, 191, .8);
+	background-color: rgb(225, 210, 191, .8);
     font-size: 40px;
     z-index: 2;
     backdrop-filter: blur(5px);
@@ -23,9 +23,7 @@ body {
 
 .logo {
 	margin-left: 1%;
-	margin-top: 3vh;
-	display: flex;
-    width: 40%;
+    width: 45%;
 }
 
 .logo-mobile
@@ -35,29 +33,42 @@ body {
 
 .header-options
 {
+	margin-top: 2vh;
 	display: inline-flex;
+	flex-direction: row;
     color: rgb(8, 8, 7);
 	text-decoration: none;
 }
 
+.header-logo-div
+{
+	display: flex;
+}
+
+.header-options-div
+{
+	display: inline-flex;
+}
+
 nav {
-    display: flex;
-    justify-content: space-between;
     color: rgb(137,144,109);
 }
 
 ul{
     display: flex;
     list-style-type: none;
-    width: 400px;
-    justify-content: space-around;
-    font-size: 30px;
-	margin-top: 6vh;
+    width: 19vw;
+    justify-content: space-between;
+    font-size: 1.5vw;
 }
 
 li {
+    margin-top: 3vh;
+}
+
+a {
     text-decoration: none;
-    margin-top: 20px;
+	color: inherit; 
 }
 
 .projcts-section{
@@ -370,7 +381,6 @@ p6
 
 .footer-text-info
 {
-	//background-color: blue;
 	padding-top: 1%;
 	margin-left: 5vw;
     margin-right: 5vw;
@@ -384,11 +394,11 @@ p6
 
 .footer-lower-section
 {
-	padding-top: 4vh;
-	padding-bottom: 2vh;
+	padding-top: 2vh;
 	margin-left: 5vw;
     margin-right: 5vw;
 	display: flex;
+	height: 20vh;
 }
 
 .footer-logo
@@ -399,9 +409,15 @@ p6
 .social-media-container
 {
 	display: flex;
-	padding-left: 3vw;
 	padding-top: 1vh;
-	height: 3vh;
+	height: 5vh;
+	width: 8.5vw;
+}
+
+.social-media-icon
+{
+	width: 35px;
+	height: 35px;
 }
 
 .social-media-container-mobile
@@ -422,18 +438,17 @@ p6
 {
 	background-color: red;
 	display: inline-flex;
-	width: 86.2vw;
 }
 
 ul.horizontal-footer-list li
 {
-	background-color: yellow;
+	
 	vertical-align: bottom;
 }
 
 a {
     text-decoration: none;
-    color: rgb(116, 115, 115);
+	color: inherit; 
 }
 /*#endreigon */
 
