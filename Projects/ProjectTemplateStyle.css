@@ -498,25 +498,17 @@ button
        flex-direction: column-reverse;
     }
 
-    .logo {
+    .logo 
+	{
         display: none;
     }
 	
 	.logo-mobile
 	{
-		margin: 7vw;
 		display: flex;
     	width: 40%;
+		margin-left: 2vw;
 	}
-	
-	.horizontal-line 
-	{
-		border: 0 solid rgb(137, 144, 109);
-		border-top-width: 3px;
-		border-radius: 1px;
-		flex: 1;
-		margin-bottom: 1px;
-  	}
 	
 	.project-container
 	{ 	
@@ -547,7 +539,7 @@ button
 	
 	.project-container-logo
 	{
-		border: 3px solid rgb(184, 149, 110);
+		border: 3px solid rgb(237, 97, 46);
    		border-radius: 5px;
 	}
 	
@@ -567,9 +559,8 @@ button
 
 	.project-info-category-mobile
 	{
-		font-size: 4vw;
 		color: rgb(183, 123, 102);
-    	border: 2px solid rgb(116, 115, 115);
+    	border: 2px solid rgb(135, 179, 74);
     	border-radius: 100px; 
     	padding: 4px 11px;
     	text-decoration: none;
@@ -795,9 +786,10 @@ p6
 	
 	.footer-lower-section
 	{
+		margin-top: 2vh;
 		margin-left: 5vw;
     	margin-right: 5vw;
-		height: 6vh;
+		height: 7vh;
 		display: flex;
 	}
 
@@ -805,7 +797,7 @@ p6
 	.footer-logo
 	{
 		padding-top: 0vh;
-		margin-left: 7vw;
+		margin-left: 2vw;
 	    height: 80%;
 	}
 	
