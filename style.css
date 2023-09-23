@@ -329,7 +329,7 @@ a1 {
 		z-index: 3;
 		backdrop-filter: blur(5px);
 		position: fixed;
-		height:100vh;
+		height: 100vh;
 		width: 55vw;
 		top: 0%;
 		right: -6%;
@@ -360,7 +360,8 @@ a1 {
 		margin-top: 2vh;
 	}
 
-    .logo {
+    .logo 
+	{
         display: none;
     }
 	
@@ -376,7 +377,7 @@ a1 {
     	display: flex;
     	flex-direction: column;
     	text-align: center;
-    	padding-top: 13vh;		
+    	padding-top: 12vh;		
 	}
 	
 	.project-container
@@ -435,6 +436,7 @@ a1 {
 		color: rgb(116, 115, 115);
 		position: absolute;
 		right: 8vw;
+		margin-top: 0.5vh;
 	}
 
 	.project-info-category-mobile

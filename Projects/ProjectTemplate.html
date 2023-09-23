@@ -1,29 +1,53 @@
 <!doctype html>
-<html><head>
-	<link rel="stylesheet" href="ProjectTemplateStyle.css" />
-	<link rel="stylesheet" href="https://use.typekit.net/maq3mdd.css">
-	<script src="https://kit.fontawesome.com/4ad00b10aa.js" crossorigin="anonymous"></script>
-	<title>Project Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta charset="UFT-8" />
-</head>
+<html>
+	<head>
+		<link rel="stylesheet" href="ProjectTemplateStyle.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/maq3mdd.css">
+		<script src="https://kit.fontawesome.com/4ad00b10aa.js" crossorigin="anonymous"></script>
+		<title>Project Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="UFT-8" />
+	</head>
 
 <body>
-<section class="header-section">
-	<div class="header-options">
-	<div class="header-logo-div"><a href="../index.html"><img src="../images/AM-SECONDARY-Color-8.png" alt="Anthony Melo's Logo" class="logo"/></a></div>
-	<div class="header-options-div">
-		<nav>
-		  <img src="../images/AM-FAVICON-Color-8.png" alt="Anthony Melo's Logo" class="logo-mobile"/>
-		  <ul>
-			  <li><a href="../index.html">Work</a></li>
-			  <li><a href="About/about.html">About</a></li>
-			  <li><a href="About/about.html">Contact Me</a></li>
-		  </ul>
-		</nav>
-	</div>
-	</div>
-</section>
+	<section class="header-section">
+		<div class="header-options">
+			<div class="header-logo-div">
+				<a href="../index.html"><img src="../images/AM-SECONDARY-Color-8.png" alt="Anthony Melo's Logo" class="logo"/></a>
+				<img src="../images/AM-FAVICON-Color-8.png" alt="Anthony Melo's Logo" class="logo-mobile"/>
+			</div>
+			<div class="header-options-div-mobile" id="nav-list">
+				<button onclick="closeHamburgerMenu()" class="hamburger-menu-cancel" id="hamburger-cancel">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+				<div class="hamburger-menu-options">
+					<nav>
+					  <ul>   
+						  <li><a href="index.html">Work</a></li>
+						  <div class="horizontal-line-hamburger"></div>
+						  <li><a href="About/about.html">About</a></li>
+						  <div class="horizontal-line-hamburger"></div>
+						  <li>Contact</li>
+					  </ul>
+					</nav>
+				</div>
+			</div>
+			<div class="header-options-div">
+				<nav>
+				  <ul>   
+					  <li><a href="index.html">Work</a></li>
+					  <li><a href="About/about.html">About</a></li>
+					  <li>Contact</li>
+				  </ul>
+				</nav>
+			</div>
+			<div class="hamburger-menu-section">
+				<button class="hamburger" id="hamburger">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div>
+		</div>
+	</section>
 <section class="projcts-section" id="projects">
   <div class="project-container">
 	<div class="horizontal-line"></div>
@@ -207,5 +231,6 @@
 		</div>
 	</div>
 </footer>
+	<script src="app.js"></script>
 </body>
 </html>

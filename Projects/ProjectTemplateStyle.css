@@ -62,6 +62,24 @@ ul{
     font-size: 1.5vw;
 }
 
+.header-options-div-mobile
+{
+	display: none;
+}
+
+.header-options-div-mobile.show {
+	display: block;
+}
+
+.header-options-div-mobile.hide {
+	display: none;
+}
+
+.hamburger-menu-section
+{
+	display: none;
+}
+
 li {
     margin-top: 3vh;
 }
@@ -453,49 +471,101 @@ a {
 
 
 
-button
-{
-	font-size: 1.2vw;
-	margin-right: 8rem;
-	
-	background-color: rgba(0, 0, 0, 0);
-	color: rgb(183, 123, 102);
-    border: 2px solid rgb(116, 115, 115);
-    border-radius: 100px; 
-    padding: 5px 11px;
-    text-decoration: none;
-	float: left;
-	vertical-align: bottom;
-	position: absolute;
-  	bottom: 0;
-  	left: 0;
-}
-
 @media only screen and (max-width: 1000px){
-    .hamburger{
-        display: block;
+    .hamburger
+	{
+        display: flex;
         border: 0;
         background: transparent;
         color: white;
         font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
+		margin-top: 3vh;
+		margin-right: 2vw;
     }
+	
+	.header-section
+	{
+		background-color: rgb(225, 210, 191, .8);
+		font-size: 40px;
+		z-index: 2;
+		backdrop-filter: blur(5px);
+		position: fixed;
+		top: 0%;
+		bottom: 87vh;
+	}
+	
+	.hamburger-menu-section
+	{
+		display: block;
+	}
+	
+	.hamburger-menu-cancel
+	{
+		display: block;
+		background: transparent;
+		color: white;
+		outline: none;
+		border: 0;
+		font-size: 1.5rem;
+		height: 5vh;
+		width: 5vw;
+		margin-top: 4vh;
+	}
+	
+	.hamburger-menu-options
+	{
+		display: block;
+		background-color: white;
+		z-index: 4;
+		width: 50vw;
+		height: 100vh;
+		top: 0%;
+		right: -6%;
+		position: fixed;
+	}
+	
+	.header-options-div
+	{
+		display: none;
+	}
+	
+	.header-options-div-mobile
+	{
+		display: none;
+		
+		z-index: 3;
+		backdrop-filter: blur(5px);
+		position: fixed;
+		height: 100vh;
+		width: 55vw;
+		top: 0%;
+		right: -6%;
+	}
 
-    ul {
-        display: none;
-        background-color: #2b2c38;
-        margin: 0px;
-    }
+	.header-options-div-mobile.show {
+		display: block;
+	}
 
-    ul.show {
-        display: block;
+    nav 
+	{
+		color: rgb(137,144,109);
     }
-
-    nav {
-       display: flex;
-       flex-direction: column-reverse;
-    }
+	
+	ul
+	{
+		display: block;
+		list-style-type: none;
+		font-size: 5vw;
+	}
+	
+	.horizontal-line-hamburger
+	{
+		border: 0 solid rgb(135, 179, 74);
+		border-top-width: 2px;
+		border-radius: 1px;
+		flex: 1;
+		margin-top: 2vh;
+	}
 
     .logo 
 	{
@@ -509,6 +579,14 @@ button
 		margin-left: 2vw;
 	}
 	
+	.projcts-section
+	{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-top: 12vh;	
+	}
+	
 	.project-container
 	{ 	
     	margin-bottom: 1vh;
@@ -518,6 +596,7 @@ button
 	
 	.project-title
 	{
+		margin-left: 1vw;
 		width: 100%;
 	}
 	
@@ -575,7 +654,8 @@ button
     	border-radius: 5px;
 	}
 	
-		p7{
+	p7
+	{
 		font-size: 4vw;
 		color: rgb(98,122,126);
 	}
@@ -604,7 +684,6 @@ button
 	display: flex;
 	flex-direction: column;
 }
-
 	
 .project-info-container-specs-mobile
 {
