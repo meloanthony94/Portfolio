@@ -57,7 +57,7 @@ nav {
 ul{
     display: flex;
     list-style-type: none;
-    width: 19vw;
+    width: 16vw;
     justify-content: space-between;
     font-size: 1.5vw;
 }
@@ -87,6 +87,11 @@ li {
 a {
     text-decoration: none;
 	color: inherit; 
+}
+
+p7{
+	font-size: 1.2vw;
+	color: rgb(98,122,126);
 }
 
 .projcts-section{
@@ -179,11 +184,6 @@ a {
 	float: left;
 }
 
-p7{
-	font-size: 1.2vw;
-	color: rgb(98,122,126);
-}
-
 .intro-video
 {
 	display: flex;
@@ -191,11 +191,6 @@ p7{
 	height: 70vh;
 	border: 3px solid rgb(237, 97, 46);
     border-radius: 5px;
-}
-
-p7{
-	font-size: 1.2vw;
-	color: rgb(98,122,126);
 }
 /*#endreigon */
 
@@ -416,7 +411,7 @@ p6
 	margin-left: 5vw;
     margin-right: 5vw;
 	display: flex;
-	height: 20vh;
+	height: 16vh;
 }
 
 .footer-logo
@@ -689,7 +684,6 @@ a {
 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 2vh;
 	margin-bottom: 5vh;
 }
 
@@ -723,11 +717,11 @@ p2
 /*#region BreakdownSection*/
 .breakdown-title
 {
-	font-size: 1.4rem;
+	font-size: 2.0rem;
 	font-weight: 400; 
 	text-align: left;
 	margin-top: 1.5vh;
-	margin-bottom: 4vh;
+	margin-bottom: 3vh;
 	width: 100%;
 }
 	
