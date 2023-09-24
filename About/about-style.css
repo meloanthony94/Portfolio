@@ -10,7 +10,7 @@ body {
 }
 
 .header-section {
-	 background-color: rgb(225, 210, 191, .8);
+	background-color: rgb(225, 210, 191, .8);
     font-size: 40px;
     z-index: 2;
     backdrop-filter: blur(5px);
@@ -23,9 +23,7 @@ body {
 
 .logo {
 	margin-left: 1%;
-	margin-top: 3vh;
-	display: flex;
-    width: 40%;
+    width: 45%;
 }
 
 .logo-mobile
@@ -35,30 +33,67 @@ body {
 
 .header-options
 {
+	margin-top: 2vh;
 	display: inline-flex;
+	flex-direction: row;
     color: rgb(8, 8, 7);
 	text-decoration: none;
 }
 
+.header-logo-div
+{
+	display: flex;
+}
+
+.header-options-div
+{
+	display: inline-flex;
+}
+
 nav {
-    display: flex;
-    justify-content: space-between;
-    color: rgb(137,144,109);
+    color: rgb(98,122,126);
 }
 
 ul{
     display: flex;
     list-style-type: none;
-    width: 400px;
-    justify-content: space-around;
-    font-size: 30px;
-	margin-top: 6vh;
+    width: 16vw;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
+
+.header-options-div-mobile
+{
+	display: none;
+}
+
+.header-options-div-mobile.show {
+	display: block;
+}
+
+.header-options-div-mobile.hide {
+	display: none;
+}
+
+.hamburger-menu-section
+{
+	display: none;
 }
 
 li {
-    text-decoration: none;
-    margin-top: 20px;
+    margin-top: 3vh;
 }
+
+a {
+    text-decoration: none;
+	color: inherit; 
+}
+
+p7{
+	font-size: 1.2vw;
+	color: rgb(98,122,126);
+}
+
 
 .about-me-section{
     display: flex;
@@ -156,11 +191,11 @@ li {
 	display: inline-block;
 	flex-direction: column;
 	width: 100%;
-	font-size: 1vw;
 	margin-bottom: 3vh;
 }
 
 p{
+	font-size: 1.05vw;
 	text-align: left;
 }
 
@@ -676,7 +711,6 @@ p4
 
 .footer-text-info
 {
-	//background-color: blue;
 	padding-top: 1%;
 	margin-left: 5vw;
     margin-right: 5vw;
@@ -690,11 +724,11 @@ p4
 
 .footer-lower-section
 {
-	padding-top: 4vh;
-	padding-bottom: 2vh;
+	padding-top: 2vh;
 	margin-left: 5vw;
     margin-right: 5vw;
 	display: flex;
+	height: 16vh;
 }
 
 .footer-logo
@@ -704,10 +738,15 @@ p4
 
 .social-media-container
 {
-	display: flex;
-	padding-left: 3vw;
+	margin-left: 20%;
+	display: inline-flex;
 	padding-top: 1vh;
-	height: 3vh;
+	height: 5vh;
+}
+
+.social-media-icon
+{
+	width: 2vw;
 }
 
 .social-media-container-mobile
@@ -717,97 +756,144 @@ p4
 
 .footer-quote
 {
-	font-size: 1vw;
 	font-weight: 400;
 	margin-left: 60vw;
-	margin-top: -2vh;
 	text-align: right;
 }
 
-.horizontal-footer-list
+p9
 {
-	background-color: red;
-	display: inline-flex;
-	width: 86.2vw;
+	font-size: 1vw;
 }
 
-ul.horizontal-footer-list li
+p10
 {
-	background-color: yellow;
-	vertical-align: bottom;
+	display: block;
+	font-size: 1.1vw;
+	margin-top: 0.5vh;
 }
 
 a {
     text-decoration: none;
-    color: rgb(116, 115, 115);
+	color: inherit; 
 }
 /*#endreigon */
 
-
-
-button
-{
-	font-size: 1.2vw;
-	margin-right: 8rem;
-	
-	background-color: rgba(0, 0, 0, 0);
-	color: rgb(183, 123, 102);
-    border: 2px solid rgb(116, 115, 115);
-    border-radius: 100px; 
-    padding: 5px 11px;
-    text-decoration: none;
-	float: left;
-	vertical-align: bottom;
-	position: absolute;
-  	bottom: 0;
-  	left: 0;
-}
-
 @media only screen and (max-width: 1000px){
-    .hamburger{
-        display: block;
+    .hamburger
+	{
+        display: flex;
         border: 0;
         background: transparent;
         color: white;
         font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
+		margin-top: 3vh;
+		margin-right: 2vw;
     }
+	
+	.header-section
+	{
+		background-color: rgb(225, 210, 191, .8);
+		font-size: 40px;
+		z-index: 2;
+		backdrop-filter: blur(5px);
+		position: fixed;
+		top: 0%;
+		bottom: 87vh;
+	}
+	
+	.hamburger-menu-section
+	{
+		display: block;
+	}
+	
+	.hamburger-menu-cancel
+	{
+		display: block;
+		background: transparent;
+		color: white;
+		outline: none;
+		border: 0;
+		font-size: 1.5rem;
+		height: 5vh;
+		width: 5vw;
+		margin-top: 4vh;
+	}
+	
+	.hamburger-menu-options
+	{
+		display: block;
+		background-color: white;
+		z-index: 4;
+		width: 50vw;
+		height: 100vh;
+		top: 0%;
+		right: -6%;
+		position: fixed;
+	}
+	
+	.header-options-div
+	{
+		display: none;
+	}
+	
+	.header-options-div-mobile
+	{
+		display: none;
+		
+		z-index: 3;
+		backdrop-filter: blur(5px);
+		position: fixed;
+		height: 100vh;
+		width: 55vw;
+		top: 0%;
+		right: -6%;
+	}
 
-    ul {
-        display: none;
-        background-color: #2b2c38;
-        margin: 0px;
+	.header-options-div-mobile.show {
+		display: block;
+	}
+
+    nav 
+	{
+		color: rgb(98,122,126);
     }
+	
+	ul
+	{
+		display: block;
+		list-style-type: none;
+		font-size: 5vw;
+	}
+	
+	.horizontal-line-hamburger
+	{
+		border: 0 solid rgb(135, 179, 74);
+		border-top-width: 2px;
+		border-radius: 1px;
+		flex: 1;
+		margin-top: 2vh;
+	}
 
-    ul.show {
-        display: block;
-    }
-
-    nav {
-       display: flex;
-       flex-direction: column-reverse;
-    }
-
-    .logo {
+    .logo 
+	{
         display: none;
     }
 	
 	.logo-mobile
 	{
-		margin: 7vw;
 		display: flex;
     	width: 40%;
+		margin-left: 2vw;
 	}
 	
-	.horizontal-line 
+	.projcts-section
 	{
-		border: 0 solid rgb(137, 144, 109);
-		border-top-width: 3px;
-		border-radius: 1px;
-		flex: 1;
-		margin-bottom: 1px;
-  	}
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-top: 12vh;	
+	}
 	
 	.project-container
 	{ 	
@@ -872,15 +958,6 @@ button
 	display: none;
 }
 
-.horizontal-line 
-{
-    border: 0 solid rgb(137, 144, 109);
-    border-top-width: 3px;
-    border-radius: 1px;
-    flex: 1;
-    margin-bottom: 10px;
-  }
-
 .who-is-headshot
 {
 	display: block;
@@ -901,8 +978,10 @@ button
 
 .who-is-intro-container-title
 {
-	font-size: 1.4rem;
-	font-weight: 500; 
+	font-size: 2.0rem;
+	font-weight: 400; 
+	text-align: left;
+	margin-top: 1.5vh;
 	margin-bottom: 1vh;
 	width: 100%;
 }
@@ -943,11 +1022,12 @@ button
 	display: inline-block;
 	flex-direction: column;
 	width: 100%;
-	font-size: 1.5rem;
 	margin-bottom: 3vh;
 }
 
 p{
+	font-size: 1.3rem;
+	font-weight: 400;
 	text-align: left;
 }
 
@@ -980,10 +1060,10 @@ p{
 	
 .experience-info-container-title
 {
-	font-size: 1.4rem;
-	font-weight: 500; 
+	font-size: 2.0rem;
+	font-weight: 400; 
+	text-align: left;
 	margin-top: 1.5vh;
-	margin-bottom: 1vh;
 	width: 100%;
 }
 
@@ -1028,24 +1108,23 @@ p{
 
 p1
 {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	text-align: left;
 	font-weight: 500;
-	display: inline-flex;
 }
 
 p2
 {
 	text-align: left;
-	font-weight: 600;
-	font-size: 1.9rem;
+	font-weight: 400;
+	font-size: 1.4rem;
 }
 	
 p5
 {
 	display: inline-flex;
 	float: left;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	text-overflow: ellipsis;
 	font-weight: 300;
 }
@@ -1064,10 +1143,10 @@ p5
 	
 .education-info-container-title
 {
-	font-size: 1.4rem;
-	font-weight: 500; 
+	font-size: 2.0rem;
+	font-weight: 400; 
+	text-align: left;
 	margin-top: 1.5vh;
-	margin-bottom: 1vh;
 	width: 100%;
 }
 
@@ -1124,10 +1203,10 @@ p5
 	
 .awards-info-container-title
 {
-	font-size: 1.4rem;
-	font-weight: 500; 
+	font-size: 2.0rem;
+	font-weight: 400; 
+	text-align: left;
 	margin-top: 1.5vh;
-	margin-bottom: 1vh;
 	width: 100%;
 }
 
@@ -1184,10 +1263,10 @@ p5
 	
 .patents-info-container-title
 {
-	font-size: 1.4rem;
-	font-weight: 500; 
+	font-size: 2.0rem;
+	font-weight: 400; 
+	text-align: left;
 	margin-top: 1.5vh;
-	margin-bottom: 1vh;
 	width: 100%;
 }
 
@@ -1337,9 +1416,10 @@ p4
 
 .playstation-trophies-title
 {
-	font-size: 1.4rem;
+	font-size: 2.0rem;
 	font-weight: 400; 
 	text-align: left;
+	margin-top: 1.5vh;
 	margin-bottom: 3vh;
 	width: 100%;
 }
@@ -1368,9 +1448,10 @@ p4
 /*#region FreeTimeSection*/
 .free-time-title
 {
-	font-size: 1.4rem;
+	font-size: 2.0rem;
 	font-weight: 400; 
 	text-align: left;
+	margin-top: 1.5vh;
 	margin-bottom: 3vh;
 	width: 100%;
 }
@@ -1392,11 +1473,15 @@ p4
 {
 	text-align: left;
 	float: left;
-	font-size: 1.5rem;
-	font-weight: 500;
 	margin-bottom: 2vh;
 	display: flex;
 	width: 100%;
+}
+	
+p6
+{
+	font-size: 1.3rem;
+	font-weight: 400;
 }
 
 .free-time-section-body
@@ -1433,9 +1518,10 @@ p4
 	
 	.footer-lower-section
 	{
+		margin-top: 2vh;
 		margin-left: 5vw;
     	margin-right: 5vw;
-		height: 6vh;
+		height: 7vh;
 		display: flex;
 	}
 
@@ -1443,7 +1529,7 @@ p4
 	.footer-logo
 	{
 		padding-top: 0vh;
-		margin-left: 7vw;
+		margin-left: 2vw;
 	    height: 80%;
 	}
 	
