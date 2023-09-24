@@ -51,7 +51,7 @@ body {
 }
 
 nav {
-    color: rgb(137,144,109);
+    color: rgb(98,122,126);
 }
 
 ul{
@@ -268,7 +268,8 @@ a1 {
 }
 
 @media only screen and (max-width: 1000px){
-    .hamburger{
+    .hamburger
+	{
         display: flex;
         border: 0;
         background: transparent;
@@ -278,7 +279,8 @@ a1 {
 		margin-right: 2vw;
     }
 	
-	.header-section {
+	.header-section
+	{
 		background-color: rgb(225, 210, 191, .8);
 		font-size: 40px;
 		z-index: 2;
@@ -286,7 +288,7 @@ a1 {
 		position: fixed;
 		top: 0%;
 		bottom: 87vh;
-}
+	}
 	
 	.hamburger-menu-section
 	{
@@ -342,7 +344,7 @@ a1 {
 
     nav 
 	{
-		color: rgb(137,144,109);
+		color: rgb(98,122,126);
     }
 	
 	ul
