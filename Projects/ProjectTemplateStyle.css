@@ -864,6 +864,11 @@ p6
 	display: flex;
 	flex-direction:column; 
 }
+	
+.spacer
+{
+	height: 45vh;
+}
 /*#endreigon */
 	
 	.footer-lower-section

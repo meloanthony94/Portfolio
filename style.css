@@ -79,6 +79,12 @@ li {
     margin-top: 3vh;
 }
 
+p11
+{
+	text-decoration: underline;
+	text-decoration-color: rgb(135, 179, 74);
+}
+
 .projcts-section{
     display: flex;
     flex-direction: column;
