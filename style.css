@@ -126,6 +126,15 @@ p11
     width: 100%;
 }
 
+.project-container-logo-unavailable
+{
+	border: 3px solid rgb(98,122,126);
+    border-radius: 5px;
+	float: right;
+	height: 100%;
+    width: 100%;
+}
+
 .project-info-column
 {
     width: 20%;
