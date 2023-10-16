@@ -342,6 +342,14 @@ p2
   	border-radius: 5px;
 }
 
+.small-vertical-image
+{
+	border: 2px solid rgb(116, 115, 115);
+    border-radius: 10px; 
+	height: 20%;
+	width: 20%;
+}
+
 p3
 {
 	margin-left: 0;
