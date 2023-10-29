@@ -17,8 +17,8 @@ body {
     position: fixed;
     top: 0%;
     bottom: 87vh;
-    left: 5vw;
-    right: 5vw;
+    left: 7vw;
+    right: 7vw;
 }
 
 .logo {
@@ -93,9 +93,9 @@ p11
 }
 
 .project-container{ 	
-    margin-bottom: 3vh;
-	margin-left: 5vw;
-    margin-right: 5vw;
+    margin-bottom: 2vh;
+	margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 .project-colums{
@@ -137,13 +137,22 @@ p11
 
 .project-info-column
 {
-    width: 20%;
+    width: 25%;
 	position: relative;
+}
+
+.category-container
+{
+	display: table-cell;
+	margin-right: 5vw;
+  	vertical-align: bottom;
+	position: absolute;
+  	bottom: 0;
 }
 
 .project-title
 {
-	width: 80%;
+	width: 75%;
 	display: block;
 }
 
@@ -151,11 +160,12 @@ p11
 {
 	float: left;
 	font-size: 2vw;
-	padding-top: 0.5%;
+	margin-bottom: 1vh;
 }
 
 .project-info-year
 {
+	width: 100%;
 	display: inline-flex;
 	vertical-align: top;
 	font-size: 1.2vw;
@@ -172,11 +182,9 @@ p11
     border-radius: 100px; 
     padding: 8px 11px;
     text-decoration: none;
+	margin-top: 1vh;
+	margin-right: 0.5vw;
 	float: left;
-	vertical-align: bottom;
-	position: absolute;
-  	bottom: 0;
-  	left: 0;
 }
 
 p7
@@ -284,6 +292,23 @@ a {
 a1 {
 	
     text-decoration: none;
+}
+
+a2
+{
+	text-decoration: none;
+	color: inherit; 
+}
+
+a2:hover
+{
+	color: rgba(79,99,102,1.00);
+	cursor: pointer;
+}
+
+.project-container-logo:hover
+{
+	background-color: red;
 }
 
 .hamburger-menu-section
