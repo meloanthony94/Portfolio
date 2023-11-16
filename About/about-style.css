@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body {
-    font-family: "all-round-gothic", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
     background-color: rgb(225, 210, 191);
@@ -16,9 +16,8 @@ body {
     backdrop-filter: blur(5px);
     position: fixed;
     top: 0%;
-    bottom: 87vh;
-    left: 5vw;
-    right: 5vw;
+    left: 7vw;
+    right: 7vw;
 }
 
 .logo {
@@ -102,6 +101,7 @@ p11
 
 
 .about-me-section{
+	margin-top: 0.75vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -109,9 +109,9 @@ p11
 }
 
 .about-me-container{ 	
-    margin-bottom: 3vh;
-	margin-left: 5vw;
-    margin-right: 5vw;
+    margin-bottom: 2vh;
+	margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 /*#region WhoIsIntroSection*/
@@ -145,7 +145,7 @@ p11
 
 .who-is-intro-title-column
 {
-    width: 20%;
+    width: 25%;
 	position: relative;
 }
 
@@ -161,7 +161,7 @@ p11
 {
 	display: flex;
 	flex-direction: column;
-	width: 80%; 
+	width: 75%; 
 }
 
 .who-is-intro-container-mobile
@@ -189,7 +189,7 @@ p11
 .who-is-intro-image
 {
 	display: flex;
-	width: 30%;
+	width: 25%;
 }
 
 .who-is-intro-text
@@ -246,7 +246,7 @@ p{
 .experience-info-container-title
 {
 	color: rgb(98,122,126);
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -254,7 +254,7 @@ p{
 
 .experience-info-container-specs
 {
-	width: 80%;
+	width: 75%;
 	margin-bottom: 1.5vh;
 }
 
@@ -266,7 +266,7 @@ p{
 
 .experience-info-container-answer
 {
-	width: 80%;
+	width: 75%;
 	display: block;
 }
 
@@ -330,7 +330,7 @@ p5
 .education-info-container-title
 {
 	color: rgb(98,122,126);
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -338,7 +338,7 @@ p5
 
 .education-info-container-specs
 {
-	width: 80%;
+	width: 75%;
 	margin-bottom: 1.5vh;
 }
 
@@ -350,7 +350,7 @@ p5
 
 .education-info-container-answer
 {
-	width: 80%;
+	width: 75%;
 	display: block;
 }
 
@@ -385,7 +385,7 @@ p5
 .awards-info-container-title
 {
 	color: rgb(98,122,126);
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -393,7 +393,7 @@ p5
 
 .awards-info-container-specs
 {
-	width: 80%;
+	width: 75%;
 	margin-bottom: 1.5vh;
 }
 
@@ -405,7 +405,7 @@ p5
 
 .awards-info-container-answer
 {
-	width: 80%;
+	width: 75%;
 	display: block;
 }
 
@@ -440,7 +440,7 @@ p5
 .patents-info-container-title
 {
 	color: rgb(98,122,126);
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -448,7 +448,7 @@ p5
 
 .patents-info-container-specs
 {
-	width: 80%;
+	width: 75%;
 	margin-bottom: 1.5vh;
 }
 
@@ -460,7 +460,7 @@ p5
 
 .patents-info-container-answer
 {
-	width: 80%;
+	width: 75%;
 	display: block;
 }
 
@@ -478,7 +478,7 @@ p5
 
 .breakdown-title
 {
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -486,8 +486,8 @@ p5
 
 .project-breakdown-container
 {
-	width: 80%;
-	margin-left: 20%;
+	width: 75%;
+	margin-left: 25%;
 	margin-bottom: 8vh;
 	display: block;
 }
@@ -519,7 +519,7 @@ p5
 .project-breakdown-image-centered
 {
 	display: flex;
-	width: 80%;
+	width: 75%;
 	margin-left: 10%;
 	margin-bottom: 2vh;
 }
@@ -527,7 +527,7 @@ p5
 .project-breakdown-image-centered-subtitled
 {
 	display: flex;
-	width: 80%;
+	width: 75%;
 	margin-left: 10%;
 }
 
@@ -580,7 +580,7 @@ p4
 .playstation-trophies-title
 {
 	color: rgb(98,122,126);
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -588,9 +588,9 @@ p4
 
 .playstation-trophies-body
 {
-	width: 80%;
+	width: 75%;
 	justify-content: center;
-	margin-left: 20%;
+	margin-left: 25%;
 	margin-bottom: 4vh;
 	display: flex;	
 }
@@ -623,8 +623,8 @@ p4
 
 .project-breakdown-lessons-learned-body
 {
-	width: 80%;
-	margin-left: 20%;
+	width: 75%;
+	margin-left: 25%;
 	margin-bottom: 8vh;
 	display: block;	
 }
@@ -634,7 +634,7 @@ p4
 .free-time-title
 {
 	color: rgb(98,122,126);
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -647,8 +647,8 @@ p4
 
 .free-time-body
 {
-	width: 80%;
-	margin-left: 20%;
+	width: 75%;
+	margin-left: 25%;
 	margin-bottom: 8vh;
 	display: block;	
 }
@@ -688,7 +688,7 @@ p4
 .resume-title
 {
 	color: rgb(98,122,126);
-	width: 20%;
+	width: 25%;
 	font-size: 2rem;
 	text-align: left;
 	float: left;
@@ -703,8 +703,8 @@ p4
 
 .resume-body
 {
-	width: 80%;
-	margin-left: 20%;
+	width: 75%;
+	margin-left: 25%;
 	display: block;	
 }
 /*#endreigon */
@@ -718,21 +718,21 @@ p4
 .footer-text-info
 {
 	padding-top: 1%;
-	margin-left: 5vw;
-    margin-right: 5vw;
+	margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 .footer-divder
 {
-	margin-left: 5vw;
-    margin-right: 5vw;
+	margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 .footer-lower-section
 {
 	padding-top: 2vh;
-	margin-left: 5vw;
-    margin-right: 5vw;
+	margin-left: 7vw;
+    margin-right: 7vw;
 	display: flex;
 	height: 16vh;
 }

@@ -16,7 +16,6 @@ body {
     backdrop-filter: blur(5px);
     position: fixed;
     top: 0%;
-    bottom: 87vh;
     left: 7vw;
     right: 7vw;
 }
@@ -86,6 +85,7 @@ p11
 }
 
 .projcts-section{
+	margin-top: 0.75vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -131,12 +131,12 @@ p11
 .overlay {
   position: absolute;
   float: right;
-  top: 0.1%;
+  top: 0.1vh;
   bottom: 0;
-  left: -0.25%;
+  left: -0.2vw;
   right: 0;
   height: 99.7%;
-  width: 100.1%;
+  width: 100.2%;
   opacity: 0;
   transition: .25s ease;
   background-color: rgb(237, 97, 46);
@@ -145,12 +145,12 @@ p11
 .unavailable-overlay {
   position: absolute;
   float: right;
-  top: 0.1%;
+  top: 0.1vh;
   bottom: 0;
-  left: -0.25%;
+  left: -0.2vw;
   right: 0;
   height: 99.7%;
-  width: 100.1%;
+  width: 100.2%;
   opacity: 0;
   transition: .25s ease;
   background-color: rgb(98,122,126);
