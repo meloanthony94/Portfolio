@@ -1,7 +1,7 @@
  /* CSS Document */
 
 body {
-    font-family: "all-round-gothic", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
     background-color: rgb(225, 210, 191);
@@ -138,8 +138,28 @@ p11
   height: 100%;
   width: 100.5%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .25s ease;
   background-color: rgb(237, 97, 46);
+}
+
+.unavailable-overlay {
+  position: absolute;
+  float: right;
+  top: 0;
+  bottom: 0;
+  left: -0.5%;
+  right: 0;
+  height: 100%;
+  width: 100.5%;
+  opacity: 0;
+  transition: .25s ease;
+  background-color: rgb(98,122,126);
+}
+
+
+.project-title:hover .unavailable-overlay {
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 .project-title:hover .overlay {
