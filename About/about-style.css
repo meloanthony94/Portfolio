@@ -81,6 +81,13 @@ ul{
 
 li {
     margin-top: 3vh;
+	transition: transform .25s ease-out;
+	display: inline-block;
+}
+
+li:hover {
+	transform: translate(0, -5px);
+	color: rgba(75,94,97,1.00);
 }
 
 a {
@@ -235,7 +242,6 @@ p{
 .experience-info-container-body
 {
 	display: flex;
-	margin-bottom: 2vh;
 }
 
 .experience-info-container-specs-mobile
@@ -319,7 +325,6 @@ p5
 .education-info-container-body
 {
 	display: flex;
-	margin-bottom: 2vh;
 }
 
 .education-info-container-specs-mobile
@@ -374,7 +379,6 @@ p5
 .awards-info-container-body
 {
 	display: flex;
-	margin-bottom: 2vh;
 }
 
 .awards-info-container-specs-mobile
@@ -429,7 +433,6 @@ p5
 .patents-info-container-body
 {
 	display: flex;
-	margin-bottom: 2vh;
 }
 
 .patents-info-container-specs-mobile
@@ -537,7 +540,6 @@ p5
 }
 
 .project-breakdown-video
-
 {
 	margin-top: 2vh;
 	margin-bottom: 2vh;
