@@ -53,21 +53,16 @@
 	<div class="horizontal-line"></div>
 	<div class="project-intro">
     	<div class="project-info-column">
-			<div class="project-info-category"><a href="#"><p7>Universal Creative</p7></a></div>
+			<div class="project-info-category"><p7>Universal Creative</p7></div>
 		</div>
 		<div class="project-title">
 			<div class="project-title-text">
-				<h>Villian-Con: Minions Blast</h>
+				<h>Villian-Con: Minion Blast</h>
 				<div class="project-title-text-subtitle">So much fun it's a crime!</div>
 			</div>
 			<div class="project-intro-video">
 				<iframe class="intro-video" src="https://www.youtube.com/embed/Blnu761johU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
-			<!--
-			<div class="project-intro-text">
-				<p>Villain-Con: Minion's Blast at Universal Studios Florida is an exciting addition to the park, drawing inspiration from the beloved Despicable Me franchise by Illumination Entertainment. What sets this attraction apart is its innovative approach – it's the first of its kind interactive experience that operates independently, without being constrained to a ride vehicle or use infra-red technology. I was fortunate to be part of this project from its early stages, and my contributions were instrumental in its success. To meet the ambitious timeline, I developed a prototype toolset that facilitated rapid iteration, ensuring the attraction's development stayed on track. Moreover, Villain-Con marked my first project utilizing Unreal Engine 5, adding an exciting layer to my experience. During production, I took on the role of Senior Software Engineer, focusing on Systems Integration and Gameplay, while also optimizing the front-end performance of the mobile app. My involvement in this groundbreaking attraction was a truly rewarding experience, showcasing my adaptability and contributions to an innovative project.</p>
-			</div>
-			-->
 			<div class="project-info-column-mobile">
 				<div class="project-info-category-mobile"><p7>Universal Creative</p7></div>
 			</div>
@@ -96,9 +91,9 @@
 				</div>
 				<div class="project-info-container-question">
 					<div><p1>Tools</p1></div>
-					<div><p2>Unity</p2></div>
-					<div><p2>Unreal</p2></div>
-					<div><p2>C#</p2></div>
+					<p2>Unity</p2>
+					<p2>Unreal 5</p2>
+					<p2>C#</p2>
 					<p2>C++</p2>
 				</div>
 			</div>
@@ -144,7 +139,7 @@
 			<div class="slideshow-container">
 			  <!-- Full-width images with number and caption text -->
 			  <div class="mySlides1">
-				<img src="Images/Promo5.jpeg" class="project-breakdown-image-centered-subtitled">
+				<img src="Images/Promo5.jpg" class="project-breakdown-image-centered-subtitled">
 				<div class="text">Villian-Con: Minions Blast - Indoor Queue</div>
 			  </div>
 
@@ -159,14 +154,14 @@
 			</div>
 
 			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span>
-			  <span class="dot" onclick="currentSlide(2)"></span>
+			<div id="dots1" style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1, 0)"></span>
+			  <span class="dot" onclick="currentSlide(2, 0)"></span>
 			</div>
 			
 			<div class="project-breakdown-section-title">Systems Integration</div>
 			<div class="project-breakdown-section-body">
-				<p3>My role in Systems Integration for Villain-Con: Minion's Blast involved ensuring the seamless operation of the attraction's custom hardware, a cutting-edge controller known as the E-Liminator X. To create a fully immersive experience, I focused on establishing effective communication between the game and all external systems. This encompassed data exchange to and from the E-Liminator X, coordination with physical sets, supplementary displays, and mobile app integration. I was also involved in integrating show/ride system messages, ensuring the game reacted in real-time to messages from the show controller. Moreover, I implemented an Achievement/Summary system, a pivotal component essential to the mobile app, enabling features such as leaderboards and mission tracking.</p3>
+				<p3>My role in Systems Integration for Villain-Con: Minion Blast involved ensuring the seamless operation of the attraction's custom hardware, a cutting-edge controller known as the E-Liminator X. To create a fully immersive experience, I focused on establishing effective communication between the game and all external systems. This encompassed data exchange to and from the E-Liminator X, coordination with physical sets, supplementary displays, and mobile app integration. I was also involved in integrating show/ride system messages, ensuring the game reacted in real-time to messages from the show controller. Moreover, I implemented an Achievement/Summary system, a pivotal component essential to the mobile app, enabling features such as leaderboards and mission tracking.</p3>
 			</div>
 			
 			<!-- Slideshow container -->
@@ -181,6 +176,11 @@
 				<img src="Images/Blaster3.jpg" class="project-breakdown-image-centered-subtitled">
 				<div class="text">E-LIMINATOR X - Pick Up</div>
 			  </div>
+				
+			  <div class="mySlides2">
+				<img src="Images/Blaster4.jpg" class="project-breakdown-image-centered-subtitled">
+				<div class="text">E-LIMINATOR X - Display</div>
+			  </div>
 
 			  <!-- Next and previous buttons -->
 			  <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
@@ -188,22 +188,23 @@
 			</div>
 
 			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span>
-			  <span class="dot" onclick="currentSlide(2)"></span>
+			<div id="dots2" style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1, 1)"></span>
+			  <span class="dot" onclick="currentSlide(2, 1)"></span>
+			  <span class="dot" onclick="currentSlide(3, 1)"></span>
 			</div>
 			
 			<div class="project-breakdown-section-title">Collectable Medallions</div>
 			<div class="project-breakdown-section-body">
-				<p3>Villain-Con introduces an exciting element to the experience through collectible medallions hidden throughout the attraction's queue. Guests can embark on a treasure hunt to discover these hidden gems. What makes these medallions even more captivating is the ability to interact with them using the mobile app. By scanning the medallions via NFC (Near Field Communication), visitors can unlock various in-app items and enhancements, adding a layer of gamification and exploration to the adventure. Furthermore, the app enables users to pre-configure their E-Liminator X loadout before each game, offering a strategic advantage that can be customized to their liking. The physical collectible medallions seamlessly integrate the digital and physical realms, enhancing the interactive and dynamic nature of Villain-Con: Minion's Blast.</p3>
+				<p3>Villain-Con introduces an exciting element to the experience through collectible medallions hidden throughout the attraction's queue. Guests can embark on a treasure hunt to discover these hidden gems. What makes these medallions even more captivating is the ability to interact with them using the mobile app. By scanning the medallions via NFC (Near Field Communication), visitors can unlock various in-app items and enhancements, adding a layer of gamification and exploration to the adventure. Furthermore, the app enables users to pre-configure their E-Liminator X loadout before each game, offering a strategic advantage that can be customized to their liking. The physical collectible medallions seamlessly integrate the digital and physical realms, enhancing the interactive and dynamic nature of Villain-Con: Minion Blast.</p3>
 			</div>
 			<div class="project-breakdown-image-subtitled">
 				<img class="project-breakdown-image-centered-subtitled" src="Images/Medallion1.jpg" alt="Collectable Medallion"/>
-				<p4>Collectable Medallion</p4>
+				<p4>Collectable Medallion Location</p4>
 			</div>
 			<div class="project-breakdown-section-title">Gameplay Programming</div>
 			<div class="project-breakdown-section-body">
-				<p3>In my role as a Gameplay Programmer for Villain-Con: Minion's Blast, I took on several responsibilities to ensure a seamless and engaging experience for all guests. One of the primary aspects of my work involved implementing multi-level fail-safes to handle rare edge-case bugs that might occur in front of guests, ensuring that the game could detect and recover from such issues to maintain a flawless guest experience. To guarantee that the attraction ran smoothly for long operating hours, I optimized and fine-tuned the game to uphold its performance. The E-Liminator X controller, with its primary and secondary fire modes and various pickups to change projectile types, presented an exciting challenge. I worked on perfecting the look and feel of the projectiles, making sure they were engaging and enjoyable to use. Additionally, I diligently worked on the integration of hidden events throughout each level, ensuring they were functioning reliably and behaving as expected when triggered. Finally, I developed the entire user summary system, a pivotal component that served as the backbone for the mission system within the mobile app, enhancing the overall interactivity and engagement of Villain-Con.</p3>
+				<p3>In my role as a Gameplay Programmer for Villain-Con: Minion Blast, I took on several responsibilities to ensure a seamless and engaging experience for all guests. One of the primary aspects of my work involved implementing multi-level fail-safes to handle rare edge-case bugs that might occur in front of guests, ensuring that the game could detect and recover from such issues to maintain a flawless guest experience. To guarantee that the attraction ran smoothly for long operating hours, I optimized and fine-tuned the game to uphold its performance. The E-Liminator X controller, with its primary and secondary fire modes and various pickups to change projectile types, presented an exciting challenge. I worked on perfecting the look and feel of the projectiles, making sure they were engaging and enjoyable to use. Additionally, I diligently worked on the integration of hidden events throughout each level, ensuring they were functioning reliably and behaving as expected when triggered. Finally, I developed the entire user summary system, a pivotal component that served as the backbone for the mission system within the mobile app, enhancing the overall interactivity and engagement of Villain-Con.</p3>
 			</div>
 			<!-- Slideshow container -->
 			<div class="slideshow-container">
@@ -214,8 +215,8 @@
 			  </div>
 
 			  <div class="mySlides3">
-				<img src="Images/GamePlay3.jpg" class="project-breakdown-image-centered-subtitled">
-				<div class="text">Stronghold's Museum</div>
+				<img src="Images/GamePlay4.jpg" class="project-breakdown-image-centered-subtitled">
+				<div class="text">Jean Clawed's Water Tank</div>
 			  </div>
 				
 			  <div class="mySlides3">
@@ -229,10 +230,10 @@
 			</div>
 
 			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span>
-			  <span class="dot" onclick="currentSlide(2)"></span>
-			  <span class="dot" onclick="currentSlide(3)"></span>
+			<div id="dots3" style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1, 2)"></span>
+			  <span class="dot" onclick="currentSlide(2, 2)"></span>
+			  <span class="dot" onclick="currentSlide(3, 2)"></span>
 			</div>
 			
 			<div class="project-breakdown-video">
@@ -316,6 +317,6 @@
 		</div>
 	</div>
 </footer>
-	<script src="../app.js"></script>
+	<script src="./MinionsBlastJS.js"></script>
 </body>
 </html>

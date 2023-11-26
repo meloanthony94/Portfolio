@@ -245,7 +245,7 @@ p7{
 {
 	width: 20vw;
 	text-align: left;
-	margin-bottom: 3vh;
+	margin-bottom: 1.5vh;
 }
 
 p1
@@ -254,6 +254,7 @@ p1
 	text-align: left;
 	font-weight: 400;
 	margin-bottom: 1.5vh;
+	color: rgb(237, 97, 46);
 }
 
 p2
@@ -261,6 +262,7 @@ p2
 	text-align: left;
 	font-weight: 500;
 	font-size: 1.5vw;
+	margin-right: 1vw;
 }
 /*#endreigon */
 
@@ -293,6 +295,7 @@ p2
 	font-size: 2.2vw;
 	font-weight: 600;
 	margin-top: 1vh;
+	color: rgb(237, 97, 46);
 }
 
 .project-breakdown-section-title
@@ -305,6 +308,7 @@ p2
 	margin-top: 1vh;
 	display: flex;
 	width: 100%;
+	color: rgb(237, 97, 46);
 }
 
 .project-breakdown-section-body
@@ -326,7 +330,7 @@ p2
 
 .project-breakdown-image-centered-subtitled
 {
-	display: flex;
+	display: block;
 	width: 80%;
 	margin-left: 10%;
 	border: 3px solid rgb(237, 97, 46);
@@ -406,6 +410,10 @@ p6
 /*#endreigon */
 
 /*#region FooterSection*/
+footer{
+	
+}
+
 .footer-container
 {
 	background: white;
@@ -426,9 +434,10 @@ p6
 
 .footer-lower-section
 {
+	
 	padding-top: 2vh;
-	margin-left: 5vw;
-    margin-right: 5vw;
+	margin-left: 7vw;
+    margin-right: 7vw;
 	display: flex;
 	height: 16vh;
 }
@@ -578,14 +587,14 @@ a {
   height: 15px;
   width: 15px;
   margin: 1vh 0.25vw 1vh;
-  background-color: #bbb;
+  background-color: #999999;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+ background-color: #111111;
 }
 
 /* Fading animation */
@@ -878,6 +887,7 @@ p2
 	text-align: left;
 	font-size: 1.8rem;
 	margin-bottom: 1vh;
+	
 }
 
 .project-breakdown-section-title
