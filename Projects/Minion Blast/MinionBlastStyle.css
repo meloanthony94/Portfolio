@@ -239,6 +239,7 @@ p7{
 .project-info-container-specs
 {
 	width: 75%;
+ 	display: block;
 }
 
 .project-info-container-question
@@ -410,10 +411,6 @@ p6
 /*#endreigon */
 
 /*#region FooterSection*/
-footer{
-	
-}
-
 .footer-container
 {
 	background: white;
@@ -434,7 +431,6 @@ footer{
 
 .footer-lower-section
 {
-	
 	padding-top: 2vh;
 	margin-left: 7vw;
     margin-right: 7vw;
@@ -608,7 +604,7 @@ a {
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 900px){
     .hamburger
 	{
         display: flex;
@@ -620,8 +616,7 @@ a {
 		margin-right: 2vw;
     }
 	
-	.header-section
-	{
+	.header-section {
 		background-color: rgb(225, 210, 191, .8);
 		font-size: 40px;
 		z-index: 2;
@@ -629,6 +624,8 @@ a {
 		position: fixed;
 		top: 0%;
 		bottom: 87vh;
+		left: 7vw;
+		right: 7vw;
 	}
 	
 	.hamburger-menu-section
@@ -727,8 +724,8 @@ a {
 	.project-container
 	{ 	
     	margin-bottom: 1vh;
-		margin-left: 5vw;
-    	margin-right: 5vw;
+		margin-left: 7vw;
+    	margin-right: 7vw;
 	}
 	
 	.project-title
@@ -853,6 +850,7 @@ p2
 	text-align: left;
 	font-weight: 500;
 	font-size: 1.7rem;
+	margin-right: 1vw;
 }
 	
 	
