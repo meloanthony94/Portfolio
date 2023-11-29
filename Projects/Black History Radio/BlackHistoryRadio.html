@@ -53,7 +53,7 @@
 	<div class="horizontal-line"></div>
 	<div class="project-intro">
     	<div class="project-info-column">
-			<div class="project-info-category"><a href="#"><p7>Interactive Art</p7></a></div>
+			<div class="project-info-category"><p7>Interactive Art</p7></div>
 		</div>
 		<div class="project-title">
 			<div class="project-title-text">
@@ -62,9 +62,6 @@
 			</div>
 			<div class="project-intro-video">
 				<iframe class="intro-video" src="https://www.youtube.com/embed/bDtVRag0jmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			</div>
-			<div class="project-intro-text">
-				<p>Black History Radio is my interactive art project for Black History Month, designed to be an engaging experience that transports users through the rich tapestry of decades in Black History. This custom creation utilizes a Sony Spresense microcontroller, with a vintage-style radio to bring the influential and historical figures of Black history to life. Showcased at the Universal Creative artist exhibition, this project marked my debut in the realm of public interactive art, underlining its significance as a transformative endeavor that celebrates and educates on the heritage and contributions of Black individuals throughout history.</p>
 			</div>
 			<div class="project-info-column-mobile">
 				<div class="project-info-category-mobile"><p7>Interactive Art</p7></div>
@@ -90,7 +87,7 @@
 				</div>
 				<div class="project-info-container-question">
 					<div><p1>Tools</p1></div>
-					<div><p2>Arduino IDE</p2></div>
+					<p2>Arduino IDE</p2>
 					<p2>C++</p2>
 				</div>
 			</div>
@@ -112,7 +109,7 @@
 				</div>
 				<div class="project-info-container-question">
 					<div><p1>Tools</p1></div>
-					<div><p2>Arduino IDE</p2></div>
+					<p2>Arduino IDE</p2>
 					<p2>C++</p2>
 				</div>
 			</div>
@@ -131,49 +128,84 @@
 		<div class="project-breakdown-section-body">
 			<p3>Selecting the right radio was a critical decision driven by creative intent and time constraints. To transport users back in time and immerse them in the historical narratives, a vintage radio was the ideal choice. The allure of the vintage radio was in its ability to evoke a sense of the past. However, this creative vision had to be balanced with time limitations; the project had a tight timeline, allowing only a few weeks for completion. To meet this challenge, I opted for a vintage-style yet modern radio, combining the aesthetic appeal of the past with the practicality of modern components. This strategic choice not only saved valuable time but also ensured the project could be delivered on schedule. A standout modification included replacing the frequency display sticker with a custom-made display representing eight pivotal years in Black history.</p3>
 		</div>
-		<div class="project-breakdown-image-subtitled">
-			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR7.jpg" alt="Radio Shell"/>
-			<p4>Radio Shell</p4>
+			
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides1">
+			<img src="Images/BHR7(1).jpg" class="project-breakdown-image-centered-subtitled" alt="Radio Shell">
+			<div class="text">Radio Shell</div>
+		  </div>
+			
+		  <div class="mySlides1">
+			<img src="Images/BHR6(1).jpg" class="project-breakdown-image-centered-subtitled" alt="Tuning Display - Before">
+			<div class="text">Tuning Display - Before</div>
+		  </div>
+			
+		  <div class="mySlides1">
+			<img src="Images/BHR3(1).jpg" class="project-breakdown-image-centered-subtitled" alt="Tuning Display - After">
+			<div class="text">Tuning Display - After</div>
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
 		</div>
-		<div class="project-breakdown-image-subtitled">
-			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR6.jpg" alt="Tuning Display - Before"/>
-			<p4>Tuning Display - Before</p4>
+
+		<!-- The dots/circles -->
+		<div id="dots1" style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1, 0)"></span>
+		  <span class="dot" onclick="currentSlide(2, 0)"></span>
+		  <span class="dot" onclick="currentSlide(3, 0)"></span>
 		</div>
-		<div class="project-breakdown-image-subtitled">
-			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR3.jpg" alt="Tuning Display - After"/>
-			<p4>Tuning Display - After</p4>
-		</div>
+			
 		<div class="project-breakdown-section-title">Historical Figures</div>
 		<div class="project-breakdown-section-body">
-			<p3>Curating the historical figures for Black History Radio was a thoughtful and inclusive process from the very beginning. My aim was to feature an equal number of both male and female figures, celebrating the contributions of Black individuals across genders. The final selection encompassed a total of eight figures, spanning the years from 1947 to 2008. To ensure a dynamic and replayable experience, each historical figure was represented by 2-3 audio clips, enabling users to delve deeper into their stories. As the project evolved, it became evident that users needed a way to identify and connect with the figures they were listening to. This requirement inspired the creation of a companion art piece—a 1960s-inspired newspaper page promoting the "Black History Radio" program. This striking art piece was a collaborative effort, skillfully crafted by the talented artist Lauren Heyen, adding depth and context to the historical narratives presented in the project.</p3>
+			<p3>Curating the historical figures for Black History Radio was a thoughtful and inclusive process from the very beginning. My aim was to feature an equal number of both male and female figures, celebrating the contributions of Black individuals across genders. The final selection encompassed a total of eight figures, spanning the years from 1947 to 2008. To ensure a dynamic and replayable experience, each historical figure was represented by 2-3 audio clips, enabling users to delve deeper into their stories. As the project evolved, it became evident that users needed a way to identify and connect with the figures they were listening to. This requirement inspired the creation of a companion art piece, a 1960s-inspired newspaper page promoting the "Black History Radio" program. This striking art piece was a collaborative effort, skillfully crafted by the talented artist Lauren Heyen, adding depth and context to the historical narratives presented in the project.</p3>
 		</div>
 		<div class="project-breakdown-image-subtitled">
-			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR8.jpg" alt="List of Historical Figures"/>
+			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR8(1).jpg" alt="List of Historical Figures"/>
 			<p4>List of Historical Figures</p4>
 		</div>
 		<div class="project-breakdown-section-title">Sony Spresense</div>
 		<div class="project-breakdown-section-body">
 			<p3>Bringing Black History Radio to life required a microcontroller that could handle the project's technical requirements. I needed the capability to play high-quality audio while also seamlessly changing between them. An added amplifier was to be avoided if possible, and these specific requirements led me to the Sony Spresense microcontroller. This device supported 192 kHz / 24-bit audio, came equipped with a built-in amplifier, and featured an SD card slot. The Spresense's capabilities were not only impressive but also perfectly aligned with the project's needs. By utilizing the Spresense microcontroller, I was able to forego the inclusion of any additional hardware, streamlining the setup and ensuring optimal audio playback. My experience with the Spresense left me thoroughly impressed, and I eagerly anticipate utilizing it in future projects, particularly those that involve camera-based applications.</p3>
 		</div>
-		<div class="project-breakdown-image-subtitled">
-			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR1.jpg" alt="Arduino IDE - Setting Up Audio Clips"/>
-			<p4>Arduino IDE - Setting Up Audio Clips</p4>
+			
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides2">
+			<img src="Images/BHR1(1).jpg" class="project-breakdown-image-centered-subtitled" alt="Arduino IDE - Setting Up Audio Clips">
+			<div class="text">Arduino IDE - Setting Up Audio Clips</div>
+		  </div>
+			
+		  <div class="mySlides2">
+			<img src="Images/BHR4(1).jpg" class="project-breakdown-image-centered-subtitled" alt="Testing Potentiometer Input">
+			<div class="text">Testing Potentiometer Input</div>
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
 		</div>
-		<div class="project-breakdown-image-subtitled">
-			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR4.jpg" alt="Testing Potentiometer Input"/>
-			<p4>Testing Potentiometer Input</p4>
+
+		<!-- The dots/circles -->
+		<div id="dots2" style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1, 1)"></span>
+		  <span class="dot" onclick="currentSlide(2, 1)"></span>
 		</div>
+			
 		<div class="project-breakdown-section-title">Artist Showcase</div>
 		<div class="project-breakdown-section-body">
 			<p3>The exhibition of Black History Radio at the Black History Artist Showcase held at Universal Creative was an enriching experience. Amongst a diverse array of exceptional artworks created by incredibly talented artists, my project had the opportunity to be along side them. During this showcase, I learned an intriguing insight into user behavior – that people may not instinctively interact with items designated as art. To encourage greater engagement and interaction with the project, I introduced a "Try Me" label on the radio, inviting visitors to approach and explore the radio, thus fostering a more dynamic and participatory experience. This realization underscored the importance of creating inviting and interactive elements in the realm of interactive art, fostering a deeper connection between the audience and the artwork on display.</p3>
 		</div>
+			
 		<div class="project-breakdown-image-subtitled">
 			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR13.jpg" alt="Black History Month Art Showcase"/>
 			<p4>Black History Month Art Showcase</p4>
 		</div>
-		<div class="project-breakdown-image">
-			<img class="project-breakdown-image-centered-subtitled" src="Images/BHR12.jpg" alt="Virtual Pet Introduction"/>
-		</div>
+			
 		</div>
 	</div>
 	<div class="horizontal-line"></div>
@@ -242,6 +274,6 @@
 		</div>
 	</div>
 </footer>
-	<script src="../app.js"></script>
+	<script src="BlackHistoryRadioJS.js"></script>
 </body>
 </html>
