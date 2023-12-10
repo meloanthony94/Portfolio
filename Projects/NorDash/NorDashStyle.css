@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body {
-    font-family: "all-round-gothic", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
     background-color: rgb(225, 210, 191);
@@ -17,8 +17,8 @@ body {
     position: fixed;
     top: 0%;
     bottom: 87vh;
-    left: 5vw;
-    right: 5vw;
+    left: 7vw;
+    right: 7vw;
 }
 
 .logo {
@@ -82,6 +82,13 @@ ul{
 
 li {
     margin-top: 3vh;
+	transition: transform .25s ease-out;
+	display: inline-block;
+}
+
+li:hover {
+	transform: translate(0, -5px);
+	color: rgba(75,94,97,1.00);
 }
 
 a {
@@ -103,8 +110,8 @@ p7{
 
 .project-container{ 	
     margin-bottom: 3vh;
-	margin-left: 5vw;
-    margin-right: 5vw;
+	margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 /*#region ProjectIntroSection*/
@@ -138,13 +145,13 @@ p7{
 
 .project-info-column
 {
-    width: 20%;
+    width: 25%;
 	position: relative;
 }
 
 .project-title
 {
-	width: 80%; 
+	width: 75%; 
 }
 
 .project-title-text
@@ -184,11 +191,16 @@ p7{
 	float: left;
 }
 
+.project-intro-video
+{
+	margin-bottom: 2vh;
+}
+
 .intro-video
 {
 	display: flex;
-	width: 70vw;
-	height: 70vh;
+	width: 100%;
+	height: 65vh;
 	border: 3px solid rgb(237, 97, 46);
     border-radius: 5px;
 }
@@ -217,7 +229,7 @@ p7{
 
 .project-info-container-title
 {
-	width: 20%;
+	width: 25%;
 	font-size: 1.5vw;
 	text-align: left;
 	float: left;
@@ -226,14 +238,15 @@ p7{
 
 .project-info-container-specs
 {
-	width: 80%;
+	width: 75%;
+ 	display: block;
 }
 
 .project-info-container-question
 {
-	width: 20vw;
+	width: 40vw;
 	text-align: left;
-	margin-bottom: 3vh;
+	margin-bottom: 1.5vh;
 }
 
 p1
@@ -242,6 +255,7 @@ p1
 	text-align: left;
 	font-weight: 400;
 	margin-bottom: 1.5vh;
+	color: rgb(237, 97, 46);
 }
 
 p2
@@ -249,6 +263,7 @@ p2
 	text-align: left;
 	font-weight: 500;
 	font-size: 1.5vw;
+	margin-right: 1vw;
 }
 /*#endreigon */
 
@@ -260,7 +275,7 @@ p2
 
 .breakdown-title
 {
-	width: 20%;
+	width: 25%;
 	font-size: 1.5vw;
 	text-align: left;
 	float: left;
@@ -269,8 +284,8 @@ p2
 
 .project-breakdown-container
 {
-	width: 80%;
-	margin-left: 20%;
+	width: 75%;
+	margin-left: 25%;
 	margin-bottom: 8vh;
 	display: block;
 }
@@ -279,7 +294,9 @@ p2
 {
 	text-align: left;
 	font-size: 2.2vw;
+	font-weight: 600;
 	margin-top: 1vh;
+	color: rgb(237, 97, 46);
 }
 
 .project-breakdown-section-title
@@ -287,9 +304,12 @@ p2
 	text-align: left;
 	float: left;
 	font-size: 2.2vw;
+	font-weight: 600;
+	margin-bottom: 1vh;
 	margin-top: 1vh;
 	display: flex;
 	width: 100%;
+	color: rgb(237, 97, 46);
 }
 
 .project-breakdown-section-body
@@ -309,9 +329,16 @@ p2
     border-radius: 5px;
 }
 
+.project-breakdown-image-centered-subtitled-vertical
+{
+	width: 50%;
+	border: 3px solid rgb(237, 97, 46);
+    border-radius: 5px;
+}
+
 .project-breakdown-image-centered-subtitled
 {
-	display: flex;
+	display: block;
 	width: 80%;
 	margin-left: 10%;
 	border: 3px solid rgb(237, 97, 46);
@@ -327,18 +354,23 @@ p2
 {
 	margin-top: 2vh;
 	margin-bottom: 2vh;
-	margin-right: 1vw;
 }
 
 .breakdown-video
 {
-	margin-left: 10%;
-	margin-right: 10%;
 	display: flex;
-	width: 57vw;
+	width: 100%;
 	height: 70vh;
 	border: 3px solid rgb(237, 97, 46);
   	border-radius: 5px;
+}
+
+.small-vertical-image
+{
+	border: 2px solid rgb(116, 115, 115);
+    border-radius: 10px; 
+	height: 20%;
+	width: 20%;
 }
 
 p3
@@ -378,8 +410,8 @@ p6
 
 .project-breakdown-lessons-learned-body
 {
-	width: 80%;
-	margin-left: 20%;
+	width: 75%;
+	margin-left: 25%;
 	margin-bottom: 8vh;
 	display: block;	
 }
@@ -398,16 +430,6 @@ p6
     margin-right: 5vw;
 }
 
-.footer-name
-{
-
-}
-
-.footer-email
-{
-
-}
-
 .footer-divder
 {
 	margin-left: 5vw;
@@ -417,8 +439,8 @@ p6
 .footer-lower-section
 {
 	padding-top: 2vh;
-	margin-left: 5vw;
-    margin-right: 5vw;
+	margin-left: 7vw;
+    margin-right: 7vw;
 	display: flex;
 	height: 16vh;
 }
@@ -477,15 +499,124 @@ ul.horizontal-footer-list li
 	vertical-align: bottom;
 }
 
-a1 {
-	
+a {
     text-decoration: none;
+	color: inherit; 
 }
 /*#endreigon */
 
+/* Slideshow container */
 
-@media only screen and (max-width: 1000px){
-    .hamburger{
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  right: 0%;
+  width: 5%;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  right: 0%;
+  width: 5%;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+
+
+
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 1vh 0.25vw 1vh;
+  background-color: #999999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #111111;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 900px){
+    .hamburger
+	{
         display: flex;
         border: 0;
         background: transparent;
@@ -503,7 +634,9 @@ a1 {
 		position: fixed;
 		top: 0%;
 		bottom: 87vh;
-}
+		left: 7vw;
+		right: 7vw;
+	}
 	
 	.hamburger-menu-section
 	{
@@ -569,12 +702,6 @@ a1 {
 		font-size: 5vw;
 	}
 	
-	p7
-	{
-		font-size: 4vw;
-		color: rgb(98,122,126);
-	}
-	
 	.horizontal-line-hamburger
 	{
 		border: 0 solid rgb(135, 179, 74);
@@ -596,15 +723,24 @@ a1 {
 		margin-left: 2vw;
 	}
 	
+	.projcts-section
+	{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-top: 12vh;	
+	}
+	
 	.project-container
 	{ 	
     	margin-bottom: 1vh;
-		margin-left: 5vw;
-    	margin-right: 5vw;
+		margin-left: 7vw;
+    	margin-right: 7vw;
 	}
 	
 	.project-title
 	{
+		margin-left: 1vw;
 		width: 100%;
 	}
 	
@@ -625,7 +761,7 @@ a1 {
 	
 	.project-container-logo
 	{
-		border: 3px solid rgb(184, 149, 110);
+		border: 3px solid rgb(237, 97, 46);
    		border-radius: 5px;
 	}
 	
@@ -692,12 +828,12 @@ a1 {
 	display: flex;
 	flex-direction: column;
 }
-
 	
 .project-info-container-specs-mobile
 {
 	display: flex;
-	flex-direction: column
+	flex-direction: column;
+	margin-bottom: 5vh;
 }
 
 .project-info-container-specs
@@ -708,6 +844,7 @@ a1 {
 .project-info-container-question
 {
 	width: 80vw;
+
 	text-align: left;
 	margin-bottom: 2vh;
 }
@@ -724,6 +861,7 @@ p2
 	text-align: left;
 	font-weight: 500;
 	font-size: 1.7rem;
+	margin-right: 1vw;
 }
 	
 	
@@ -758,24 +896,19 @@ p2
 	text-align: left;
 	font-size: 1.8rem;
 	margin-bottom: 1vh;
-	margin-top: -1vh;
+	
 }
 
 .project-breakdown-section-title
 {
 	text-align: left;
 	font-size: 1.9rem;
-	margin-top: 0vh;
+	margin-bottom: 1vh;
 }
 
 .project-breakdown-section-body
 {
 	
-}
-	
-.spacer
-{
-	height: 45vh;
 }
 	
 .project-breakdown-image-centered
@@ -873,13 +1006,19 @@ p6
 	display: flex;
 	flex-direction:column; 
 }
+	
+.spacer
+{
+	height: 45vh;
+}
 /*#endreigon */
 	
 	.footer-lower-section
 	{
+		margin-top: 2vh;
 		margin-left: 5vw;
     	margin-right: 5vw;
-		height: 6vh;
+		height: 7vh;
 		display: flex;
 	}
 
@@ -887,7 +1026,7 @@ p6
 	.footer-logo
 	{
 		padding-top: 0vh;
-		margin-left: 7vw;
+		margin-left: 2vw;
 	    height: 80%;
 	}
 	
